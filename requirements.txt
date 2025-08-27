@@ -1,0 +1,11 @@
+numpy
+pandas
+networkx
+scipy
+matplotlib
+seaborn
+scikit-learn
+tqdm
+ipywidgets
+jupyter
+nbformat

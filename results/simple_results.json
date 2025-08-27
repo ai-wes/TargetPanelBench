@@ -1,0 +1,16 @@
+{
+  "ranking": [
+    "GENE0059", "GENE0021", "GENE0099", "GENE0003", "GENE0080", "GENE0044", "GENE0076", "GENE0025", "GENE0035", "GENE0081",
+    "GENE0058", "GENE0024", "GENE0022", "GENE0084", "GENE0093", "GENE0057", "GENE0012", "GENE0070", "GENE0000", "GENE0089"
+  ],
+  "panel": [
+    "GENE0059", "GENE0021", "GENE0099", "GENE0003", "GENE0080", "GENE0044", "GENE0076", "GENE0025", "GENE0035", "GENE0081", "GENE0058", "GENE0024"
+  ],
+  "metrics": {
+    "precision_at_20": 0.15,
+    "mrr": 0.07142857142857142,
+    "ndcg_at_20": 0.10275755139284115
+  },
+  "panel_recall": 0.0,
+  "panel_diversity": 3.39
+}
