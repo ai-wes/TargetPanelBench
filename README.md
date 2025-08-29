@@ -126,6 +126,18 @@ python benchmark.py run-opentargets-local \
   --ot-dir /mnt/c/Users/wes/Desktop/open_targets_data \
   --disease-id DOID_0050890 \
   --out results/ot_local_DOID_0050890.json
+
+# Run Morphantic AEA (single-objective ndcg)
+python benchmark.py run-morphantic-aea --data-dir data --out results/morphantic_aea.json
+
+# Run Morphantic AEA (scalarized MO: ndcg + diversity)
+python benchmark.py run-morphantic-aea-mo --data-dir data --diversity-weight 0.4 --out results/morphantic_aea_mo.json
+
+# Evaluate against an independent gold standard (PanelApp/ClinGen CSV/TXT)
+python benchmark.py evaluate-vs-gold --results results/morphantic_aea.json --gold path/to/gold.txt --k 20
+
+# Recompute panel diversity on STRING network
+python benchmark.py recompute-diversity --results results/morphantic_aea.json --string-edges path/to/string.tsv
 ```
 
 See `docs/methods.md` and `docs/benchmark_protocol.md` for details.

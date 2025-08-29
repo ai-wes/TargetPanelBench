@@ -26,11 +26,29 @@ Baselines
   weight vectors for linear combinations of features and maximises a chosen
   objective metric (nDCG, precision@k or MRR).
 
+Morphantic AEA (feature-weight optimization)
+-------------------------------------------
+- Adapters: `public_methods/morphantic_aea.py`
+- Modes:
+  - `run-morphantic-aea`: single-objective (maximize nDCG@k).
+  - `run-morphantic-aea-mo`: scalarized multi-objective (nDCG + diversity). Loss = w_ndcg*(1-ndcg) + w_div*(1-diversity_norm).
+- Notes: diversity_norm is estimated by sampling random panels to normalize panel diversity into [0,1].
+
+Gold Standards
+--------------
+- Loader: `public_methods/goldstandard.py` accepts TXT (one symbol per line) or CSV/TSV with `symbol` or `gene_id`.
+- CLI: `benchmark.py evaluate-vs-gold --results <file.json> --gold <gold.txt> [--k 20]` adds `*_gold` metrics and writes a sibling JSON.
+
+STRING PPI
+----------
+- Loader: `public_methods/string_ppi.py` accepts TSV (preferredName_A/B or protein1/protein2) or CSV with `gene1/gene2`.
+- CLI: `benchmark.py recompute-diversity --results <file.json> --string-edges <string.tsv>` adds `panel_diversity_string` to a sibling JSON.
+
 Planned Adapters
 ----------------
 - DISEASES (Jensen Lab) API for disease–gene associations.
-- STRING for PPI edges to compute panel diversity on public networks.
-- g:Profiler / Enrichr for functional context (for analysis, not ranking).
+- STRING API fetcher for dynamic networks.
+- g:Profiler / Enrichr for functional context (analysis, not ranking).
 
 Usage
 -----

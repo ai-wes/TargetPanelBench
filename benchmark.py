@@ -106,17 +106,47 @@ def cmd_run_morphantic_aea(args: argparse.Namespace) -> None:
     print(json.dumps(res.get("metrics", res), indent=2))
 
 
+def cmd_run_morphantic_aea_mo(args: argparse.Namespace) -> None:
+    from public_methods.morphantic_aea import run_morphantic_aea_mo
+    targets_path = os.path.join(args.data_dir, "targets.csv")
+    edges_path = os.path.join(args.data_dir, "ppi_edges.csv")
+    res = run_morphantic_aea_mo(
+        targets_path,
+        edges_path,
+        panel_size=args.panel_size,
+        k=args.k,
+        seed=args.seed,
+        pop_size=args.pop_size,
+        max_generations=args.max_generations,
+        n_islands=args.n_islands,
+        diversity_weight=args.diversity_weight,
+        samples_for_divnorm=args.samples_for_divnorm,
+    )
+    os.makedirs(os.path.dirname(args.out), exist_ok=True)
+    with open(args.out, "w") as f:
+        json.dump(res, f, indent=2)
+    print(json.dumps(res.get("metrics", res), indent=2))
+
+
 def _read_results_file(path: Path) -> List[Dict]:
     items = []
     try:
         with open(path) as f:
             data = json.load(f)
         if isinstance(data, dict) and "metrics" in data:
-            items.append({"file": path.name, **data.get("metrics", {}), "method": path.stem})
+            row = {"file": path.name, **data.get("metrics", {}), "method": path.stem}
+            if "panel_recall" in data: row["panel_recall"] = data["panel_recall"]
+            if "panel_diversity" in data: row["panel_diversity"] = data["panel_diversity"]
+            if "panel_diversity_string" in data: row["panel_diversity_string"] = data["panel_diversity_string"]
+            items.append(row)
         elif isinstance(data, dict):
-            # probably a map of method -> result
             for mname, res in data.items():
-                items.append({"file": path.name, **res.get("metrics", {}), "method": mname})
+                row = {"file": path.name, **res.get("metrics", {}), "method": mname}
+                if isinstance(res, dict):
+                    if "panel_recall" in res: row["panel_recall"] = res["panel_recall"]
+                    if "panel_diversity" in res: row["panel_diversity"] = res["panel_diversity"]
+                    if "panel_diversity_string" in res: row["panel_diversity_string"] = res["panel_diversity_string"]
+                items.append(row)
     except Exception as e:
         items.append({"file": path.name, "error": str(e)})
     return items
@@ -132,10 +162,61 @@ def cmd_summarise(args: argparse.Namespace) -> None:
     print(df.to_string(index=False))
 
 
+def cmd_evaluate_vs_gold(args: argparse.Namespace) -> None:
+    from public_methods.goldstandard import evaluate_results_vs_gold
+    out = evaluate_results_vs_gold(args.results, args.gold, k=args.k)
+    print(json.dumps(out, indent=2))
+
+
+def cmd_recompute_diversity(args: argparse.Namespace) -> None:
+    from public_methods.string_ppi import recompute_panel_diversity_for_results
+    out = recompute_panel_diversity_for_results(args.results, args.string_edges)
+    print(json.dumps(out, indent=2))
+
+
+def cmd_fetch_string_ppi(args: argparse.Namespace) -> None:
+    from public_methods.string_api import cache_string_edges
+    genes: List[str] = []
+    if args.genes_file:
+        with open(args.genes_file, "r", encoding="utf-8") as f:
+            genes = [ln.strip() for ln in f if ln.strip()]
+    elif args.from_data:
+        import pandas as _pd
+        df = _pd.read_csv("data/targets.csv")
+        genes = df["gene_id"].astype(str).tolist()
+    else:
+        raise SystemExit("Provide --genes-file or --from-data")
+    os.makedirs(os.path.dirname(args.out), exist_ok=True)
+    try:
+        path = cache_string_edges(genes, args.out, species=args.species, required_score=args.required_score)
+        print(json.dumps({"out": path}, indent=2))
+    except Exception as e:
+        print(json.dumps({"error": str(e)}, indent=2))
+
+
+def cmd_fetch_panelapp_gold(args: argparse.Namespace) -> None:
+    from public_methods.panelapp import fetch_panelapp_panel, extract_symbols, write_gold_list
+    try:
+        panel = fetch_panelapp_panel(args.panel_id)
+        syms = extract_symbols(panel, min_confidence=args.min_confidence)
+        out = write_gold_list(syms, args.out)
+        print(json.dumps({"out": out, "n": len(syms)}, indent=2))
+    except Exception as e:
+        print(json.dumps({"error": str(e)}, indent=2))
+
+
+def cmd_generate_gold_from_file(args: argparse.Namespace) -> None:
+    from public_methods.clingen import write_gold_from_file
+    try:
+        out = write_gold_from_file(args.input, args.out)
+        print(json.dumps({"out": out}, indent=2))
+    except Exception as e:
+        print(json.dumps({"error": str(e)}, indent=2))
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="TargetPanelBench unified benchmark CLI")
     sp = p.add_subparsers(dest="cmd", required=True)
-
     b = sp.add_parser("run-baselines", help="Run built-in baselines on local dataset")
     b.add_argument("--data-dir", default="data")
     b.add_argument("--panel-size", type=int, default=12)
@@ -165,6 +246,19 @@ def build_parser() -> argparse.ArgumentParser:
     ma.add_argument("--out", default="results/morphantic_aea.json")
     ma.set_defaults(func=cmd_run_morphantic_aea)
 
+    mam = sp.add_parser("run-morphantic-aea-mo", help="Run Morphantic AEA (scalarized MO: ndcg + diversity)")
+    mam.add_argument("--data-dir", default="data")
+    mam.add_argument("--panel-size", type=int, default=12)
+    mam.add_argument("--k", type=int, default=20)
+    mam.add_argument("--seed", type=int, default=42)
+    mam.add_argument("--pop-size", type=int, default=32)
+    mam.add_argument("--max-generations", type=int, default=40)
+    mam.add_argument("--n-islands", type=int, default=2)
+    mam.add_argument("--diversity-weight", type=float, default=0.3)
+    mam.add_argument("--samples-for-divnorm", type=int, default=32)
+    mam.add_argument("--out", default="results/morphantic_aea_mo.json")
+    mam.set_defaults(func=cmd_run_morphantic_aea_mo)
+
     otl = sp.add_parser("run-opentargets-local", help="Run OpenTargets adapter on local Parquet data")
     otl.add_argument("--ot-dir", required=True, help="Path to Open Targets parquet root (contains associations_direct_overall and targets_core_by_annotation)")
     otl.add_argument("--disease-id", required=True, help="Disease Ontology ID, e.g., DOID_0050890")
@@ -178,6 +272,36 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--results-dir", default="results")
     s.add_argument("--out", default="results/summary.csv")
     s.set_defaults(func=cmd_summarise)
+
+    eg = sp.add_parser("evaluate-vs-gold", help="Re-evaluate a results JSON against an independent gold standard")
+    eg.add_argument("--results", required=True, help="Path to a single results JSON")
+    eg.add_argument("--gold", required=True, help="Path to gold-standard list (txt/csv/tsv with symbol or gene_id column)")
+    eg.add_argument("--k", type=int, default=20)
+    eg.set_defaults(func=cmd_evaluate_vs_gold)
+
+    rd = sp.add_parser("recompute-diversity", help="Recompute panel diversity using a STRING edges file")
+    rd.add_argument("--results", required=True, help="Path to a single results JSON")
+    rd.add_argument("--string-edges", required=True, help="STRING edges TSV (preferredName_A/B or protein1/protein2)")
+    rd.set_defaults(func=cmd_recompute_diversity)
+
+    fs = sp.add_parser("fetch-string-ppi", help="Fetch STRING PPI for genes and cache TSV")
+    fs.add_argument("--genes-file", help="Path to TXT with one gene symbol per line")
+    fs.add_argument("--from-data", action="store_true", help="Use data/targets.csv gene_id as symbols")
+    fs.add_argument("--species", type=int, default=9606)
+    fs.add_argument("--required-score", type=int, default=700)
+    fs.add_argument("--out", default="data/string_cache/edges.tsv")
+    fs.set_defaults(func=cmd_fetch_string_ppi)
+
+    pg = sp.add_parser("fetch-panelapp-gold", help="Fetch PanelApp panel genes and write gold list")
+    pg.add_argument("--panel-id", required=True)
+    pg.add_argument("--min-confidence", type=int, default=2)
+    pg.add_argument("--out", default="data/gold/panelapp_gold.txt")
+    pg.set_defaults(func=cmd_fetch_panelapp_gold)
+
+    cg = sp.add_parser("generate-gold-from-file", help="Normalize a local file to a gold list TXT")
+    cg.add_argument("--input", required=True)
+    cg.add_argument("--out", default="data/gold/custom_gold.txt")
+    cg.set_defaults(func=cmd_generate_gold_from_file)
 
     return p
 
