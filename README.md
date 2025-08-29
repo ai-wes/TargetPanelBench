@@ -60,7 +60,7 @@ This will create the following files in the `data/` folder:
 
 * `ppi_edges.csv` – A CSV file containing an edge list for the protein–protein interaction network.  Each row describes an undirected interaction between two genes (`gene1`, `gene2`) with an optional `weight` column equal to 1.
 
-## Running the baseline benchmarks
+## Running the benchmark
 
 After generating the data, you can run each baseline method individually.  For example:
 
@@ -103,6 +103,32 @@ diversity = panel_diversity_score(panel, G)
 print(metrics)
 print({'panel_recall': recall, 'panel_diversity': diversity})
 ```
+
+### Unified CLI
+
+You can orchestrate baselines and public tool adapters via a single CLI:
+
+```bash
+# Generate synthetic data
+python download_data.py --num-genes 200 --num-positives 40
+
+# Run baselines on synthetic data
+python benchmark.py run-baselines --data-dir data --out results/baselines.json
+
+# Run OpenTargets adapter for Type 2 Diabetes (requires internet)
+python benchmark.py run-opentargets --efo-id EFO_0003767 --out results/ot_t2d.json
+
+# Summarise all JSON results into a CSV
+python benchmark.py summarise --results-dir results --out results/summary.csv
+
+# Run OpenTargets on local Parquet (DOID_* disease IDs)
+python benchmark.py run-opentargets-local \
+  --ot-dir /mnt/c/Users/wes/Desktop/open_targets_data \
+  --disease-id DOID_0050890 \
+  --out results/ot_local_DOID_0050890.json
+```
+
+See `docs/methods.md` and `docs/benchmark_protocol.md` for details.
 
 ## Jupyter notebook
 

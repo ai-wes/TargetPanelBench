@@ -1,0 +1,3545 @@
+{
+  "source": "OpenTargets local parquet",
+  "disease_id": "DOID_0050890",
+  "candidates": [
+    {
+      "targetId": "ENSG00000145335",
+      "score": 0.08532500703075374,
+      "evidenceCount": 2217,
+      "symbol": "SNCA"
+    },
+    {
+      "targetId": "ENSG00000074317",
+      "score": 0.08278583501277703,
+      "evidenceCount": 1497,
+      "symbol": "SNCB"
+    },
+    {
+      "targetId": "ENSG00000173267",
+      "score": 0.0827851921256957,
+      "evidenceCount": 1495,
+      "symbol": "SNCG"
+    },
+    {
+      "targetId": "ENSG00000010810",
+      "score": 0.08241758669095933,
+      "evidenceCount": 952,
+      "symbol": "FYN"
+    },
+    {
+      "targetId": "ENSG00000182253",
+      "score": 0.08241758669095933,
+      "evidenceCount": 952,
+      "symbol": "SYNM"
+    },
+    {
+      "targetId": "ENSG00000097007",
+      "score": 0.0778797139809358,
+      "evidenceCount": 12,
+      "symbol": "ABL1"
+    },
+    {
+      "targetId": "ENSG00000138138",
+      "score": 0.07613345006504857,
+      "evidenceCount": 2,
+      "symbol": "ATAD1"
+    },
+    {
+      "targetId": "ENSG00000137462",
+      "score": 0.07310945100730595,
+      "evidenceCount": 15,
+      "symbol": "TLR2"
+    },
+    {
+      "targetId": "ENSG00000186868",
+      "score": 0.0724058552479067,
+      "evidenceCount": 229,
+      "symbol": "MAPT"
+    },
+    {
+      "targetId": "ENSG00000121769",
+      "score": 0.05676036147488169,
+      "evidenceCount": 16,
+      "symbol": "FABP3"
+    },
+    {
+      "targetId": "ENSG00000196482",
+      "score": 0.0508172300191465,
+      "evidenceCount": 2,
+      "symbol": "ESRRG"
+    },
+    {
+      "targetId": "ENSG00000141510",
+      "score": 0.04989328038243475,
+      "evidenceCount": 2,
+      "symbol": "TP53"
+    },
+    {
+      "targetId": "ENSG00000166825",
+      "score": 0.04656706169027243,
+      "evidenceCount": 1,
+      "symbol": "ANPEP"
+    },
+    {
+      "targetId": "ENSG00000177628",
+      "score": 0.045106503153223565,
+      "evidenceCount": 131,
+      "symbol": "GBA1"
+    },
+    {
+      "targetId": "ENSG00000148154",
+      "score": 0.04476166410013766,
+      "evidenceCount": 6,
+      "symbol": "UGCG"
+    },
+    {
+      "targetId": "ENSG00000173432",
+      "score": 0.04429272141550624,
+      "evidenceCount": 49,
+      "symbol": "SAA1"
+    },
+    {
+      "targetId": "ENSG00000134339",
+      "score": 0.04429272141550624,
+      "evidenceCount": 49,
+      "symbol": "SAA2"
+    },
+    {
+      "targetId": "ENSG00000114062",
+      "score": 0.041255979085162285,
+      "evidenceCount": 135,
+      "symbol": "UBE3A"
+    },
+    {
+      "targetId": "ENSG00000234745",
+      "score": 0.041255979085162285,
+      "evidenceCount": 135,
+      "symbol": "HLA-B"
+    },
+    {
+      "targetId": "ENSG00000102109",
+      "score": 0.03856319307315276,
+      "evidenceCount": 12,
+      "symbol": "PCSK1N"
+    },
+    {
+      "targetId": "ENSG00000161610",
+      "score": 0.03474050634036197,
+      "evidenceCount": 2,
+      "symbol": "HCRT"
+    },
+    {
+      "targetId": "ENSG00000291137",
+      "score": 0.03433420520960416,
+      "evidenceCount": 51,
+      "symbol": "GBA1LP"
+    },
+    {
+      "targetId": "ENSG00000058091",
+      "score": 0.03295420370938591,
+      "evidenceCount": 3,
+      "symbol": "CDK14"
+    },
+    {
+      "targetId": "ENSG00000133048",
+      "score": 0.032892154752969166,
+      "evidenceCount": 9,
+      "symbol": "CHI3L1"
+    },
+    {
+      "targetId": "ENSG00000142319",
+      "score": 0.032644961219214876,
+      "evidenceCount": 34,
+      "symbol": "SLC6A3"
+    },
+    {
+      "targetId": "ENSG00000145321",
+      "score": 0.031887965828620544,
+      "evidenceCount": 5,
+      "symbol": "GC"
+    },
+    {
+      "targetId": "ENSG00000001084",
+      "score": 0.03179926666349622,
+      "evidenceCount": 4,
+      "symbol": "GCLC"
+    },
+    {
+      "targetId": "ENSG00000277586",
+      "score": 0.031652632681687436,
+      "evidenceCount": 28,
+      "symbol": "NEFL"
+    },
+    {
+      "targetId": "ENSG00000185345",
+      "score": 0.03129197061492661,
+      "evidenceCount": 27,
+      "symbol": "PRKN"
+    },
+    {
+      "targetId": "ENSG00000185122",
+      "score": 0.03074699068835228,
+      "evidenceCount": 4,
+      "symbol": "HSF1"
+    },
+    {
+      "targetId": "ENSG00000265972",
+      "score": 0.029196808520091443,
+      "evidenceCount": 2,
+      "symbol": "TXNIP"
+    },
+    {
+      "targetId": "ENSG00000167755",
+      "score": 0.02833906270326734,
+      "evidenceCount": 8,
+      "symbol": "KLK6"
+    },
+    {
+      "targetId": "ENSG00000153208",
+      "score": 0.026794539464640884,
+      "evidenceCount": 2,
+      "symbol": "MERTK"
+    },
+    {
+      "targetId": "ENSG00000186951",
+      "score": 0.02591165425622742,
+      "evidenceCount": 4,
+      "symbol": "PPARA"
+    },
+    {
+      "targetId": "ENSG00000184584",
+      "score": 0.025418881116647824,
+      "evidenceCount": 3,
+      "symbol": "STING1"
+    },
+    {
+      "targetId": "ENSG00000089692",
+      "score": 0.025416691124611483,
+      "evidenceCount": 14,
+      "symbol": "LAG3"
+    },
+    {
+      "targetId": "ENSG00000196730",
+      "score": 0.025295687831752924,
+      "evidenceCount": 3,
+      "symbol": "DAPK1"
+    },
+    {
+      "targetId": "ENSG00000112561",
+      "score": 0.02513252400602329,
+      "evidenceCount": 9,
+      "symbol": "TFEB"
+    },
+    {
+      "targetId": "ENSG00000157106",
+      "score": 0.025131430118559724,
+      "evidenceCount": 1,
+      "symbol": "SMG1"
+    },
+    {
+      "targetId": "ENSG00000171368",
+      "score": 0.024362020830243296,
+      "evidenceCount": 16,
+      "symbol": "TPPP"
+    },
+    {
+      "targetId": "ENSG00000162711",
+      "score": 0.024302544633358538,
+      "evidenceCount": 5,
+      "symbol": "NLRP3"
+    },
+    {
+      "targetId": "ENSG00000188906",
+      "score": 0.023370906349498614,
+      "evidenceCount": 59,
+      "symbol": "LRRK2"
+    },
+    {
+      "targetId": "ENSG00000094631",
+      "score": 0.022613770019590935,
+      "evidenceCount": 6,
+      "symbol": "HDAC6"
+    },
+    {
+      "targetId": "ENSG00000117984",
+      "score": 0.02190708368299753,
+      "evidenceCount": 8,
+      "symbol": "CTSD"
+    },
+    {
+      "targetId": "ENSG00000130203",
+      "score": 0.02078559015135719,
+      "evidenceCount": 36,
+      "symbol": "APOE"
+    },
+    {
+      "targetId": "ENSG00000130726",
+      "score": 0.020511681935000952,
+      "evidenceCount": 2,
+      "symbol": "TRIM28"
+    },
+    {
+      "targetId": "ENSG00000128271",
+      "score": 0.02008830767924548,
+      "evidenceCount": 5,
+      "symbol": "ADORA2A"
+    },
+    {
+      "targetId": "ENSG00000091831",
+      "score": 0.019998376581272195,
+      "evidenceCount": 3,
+      "symbol": "ESR1"
+    },
+    {
+      "targetId": "ENSG00000178607",
+      "score": 0.0199573121529739,
+      "evidenceCount": 1,
+      "symbol": "ERN1"
+    },
+    {
+      "targetId": "ENSG00000161011",
+      "score": 0.01963541287558928,
+      "evidenceCount": 17,
+      "symbol": "SQSTM1"
+    },
+    {
+      "targetId": "ENSG00000064692",
+      "score": 0.019518127194825603,
+      "evidenceCount": 11,
+      "symbol": "SNCAIP"
+    },
+    {
+      "targetId": "ENSG00000121351",
+      "score": 0.019382410156797696,
+      "evidenceCount": 3,
+      "symbol": "IAPP"
+    },
+    {
+      "targetId": "ENSG00000148120",
+      "score": 0.019151803336963317,
+      "evidenceCount": 29,
+      "symbol": "AOPEP"
+    },
+    {
+      "targetId": "ENSG00000120885",
+      "score": 0.018948141256799816,
+      "evidenceCount": 7,
+      "symbol": "CLU"
+    },
+    {
+      "targetId": "ENSG00000114354",
+      "score": 0.018294202806892736,
+      "evidenceCount": 2,
+      "symbol": "TFG"
+    },
+    {
+      "targetId": "ENSG00000069869",
+      "score": 0.01799915488956945,
+      "evidenceCount": 5,
+      "symbol": "NEDD4"
+    },
+    {
+      "targetId": "ENSG00000136634",
+      "score": 0.017893824630984313,
+      "evidenceCount": 4,
+      "symbol": "IL10"
+    },
+    {
+      "targetId": "ENSG00000143543",
+      "score": 0.017719300810716536,
+      "evidenceCount": 3,
+      "symbol": "JTB"
+    },
+    {
+      "targetId": "ENSG00000144852",
+      "score": 0.017719300810716536,
+      "evidenceCount": 3,
+      "symbol": "NR1I2"
+    },
+    {
+      "targetId": "ENSG00000168439",
+      "score": 0.017555043097523336,
+      "evidenceCount": 2,
+      "symbol": "STIP1"
+    },
+    {
+      "targetId": "ENSG00000116044",
+      "score": 0.016950540177096324,
+      "evidenceCount": 12,
+      "symbol": "NFE2L2"
+    },
+    {
+      "targetId": "ENSG00000171867",
+      "score": 0.016859805926766988,
+      "evidenceCount": 21,
+      "symbol": "PRNP"
+    },
+    {
+      "targetId": "ENSG00000154727",
+      "score": 0.0168183127179758,
+      "evidenceCount": 11,
+      "symbol": "GABPA"
+    },
+    {
+      "targetId": "ENSG00000176697",
+      "score": 0.016650599064253275,
+      "evidenceCount": 5,
+      "symbol": "BDNF"
+    },
+    {
+      "targetId": "ENSG00000158828",
+      "score": 0.016552339848806236,
+      "evidenceCount": 8,
+      "symbol": "PINK1"
+    },
+    {
+      "targetId": "ENSG00000131095",
+      "score": 0.016361710811174737,
+      "evidenceCount": 5,
+      "symbol": "GFAP"
+    },
+    {
+      "targetId": "ENSG00000154277",
+      "score": 0.016301766406708273,
+      "evidenceCount": 10,
+      "symbol": "UCHL1"
+    },
+    {
+      "targetId": "ENSG00000204305",
+      "score": 0.01626151360612688,
+      "evidenceCount": 1,
+      "symbol": "AGER"
+    },
+    {
+      "targetId": "ENSG00000080823",
+      "score": 0.01626151360612688,
+      "evidenceCount": 1,
+      "symbol": "MOK"
+    },
+    {
+      "targetId": "ENSG00000170606",
+      "score": 0.016179178529890814,
+      "evidenceCount": 11,
+      "symbol": "HSPA4"
+    },
+    {
+      "targetId": "ENSG00000204389",
+      "score": 0.016179178529890814,
+      "evidenceCount": 11,
+      "symbol": "HSPA1A"
+    },
+    {
+      "targetId": "ENSG00000188021",
+      "score": 0.01589193375144218,
+      "evidenceCount": 2,
+      "symbol": "UBQLN2"
+    },
+    {
+      "targetId": "ENSG00000125730",
+      "score": 0.015653349423029053,
+      "evidenceCount": 5,
+      "symbol": "C3"
+    },
+    {
+      "targetId": "ENSG00000164430",
+      "score": 0.015522353896757478,
+      "evidenceCount": 2,
+      "symbol": "CGAS"
+    },
+    {
+      "targetId": "ENSG00000163932",
+      "score": 0.015522353896757478,
+      "evidenceCount": 1,
+      "symbol": "PRKCD"
+    },
+    {
+      "targetId": "ENSG00000131979",
+      "score": 0.015522353896757478,
+      "evidenceCount": 1,
+      "symbol": "GCH1"
+    },
+    {
+      "targetId": "ENSG00000188822",
+      "score": 0.015327297862340548,
+      "evidenceCount": 4,
+      "symbol": "CNR2"
+    },
+    {
+      "targetId": "ENSG00000167815",
+      "score": 0.015055409677319491,
+      "evidenceCount": 10,
+      "symbol": "PRDX2"
+    },
+    {
+      "targetId": "ENSG00000141527",
+      "score": 0.015055409677319491,
+      "evidenceCount": 10,
+      "symbol": "CARD14"
+    },
+    {
+      "targetId": "ENSG00000123838",
+      "score": 0.015055409677319491,
+      "evidenceCount": 10,
+      "symbol": "C4BPA"
+    },
+    {
+      "targetId": "ENSG00000115657",
+      "score": 0.015055409677319491,
+      "evidenceCount": 10,
+      "symbol": "ABCB6"
+    },
+    {
+      "targetId": "ENSG00000143801",
+      "score": 0.014783194187388073,
+      "evidenceCount": 2,
+      "symbol": "PSEN2"
+    },
+    {
+      "targetId": "ENSG00000136854",
+      "score": 0.014649734795418597,
+      "evidenceCount": 4,
+      "symbol": "STXBP1"
+    },
+    {
+      "targetId": "ENSG00000121774",
+      "score": 0.014583241161303663,
+      "evidenceCount": 16,
+      "symbol": "KHDRBS1"
+    },
+    {
+      "targetId": "ENSG00000073792",
+      "score": 0.014583241161303663,
+      "evidenceCount": 16,
+      "symbol": "IGF2BP2"
+    },
+    {
+      "targetId": "ENSG00000132912",
+      "score": 0.014583241161303663,
+      "evidenceCount": 16,
+      "symbol": "DCTN4"
+    },
+    {
+      "targetId": "ENSG00000213024",
+      "score": 0.014583241161303663,
+      "evidenceCount": 16,
+      "symbol": "NUP62"
+    },
+    {
+      "targetId": "ENSG00000110768",
+      "score": 0.014583241161303663,
+      "evidenceCount": 16,
+      "symbol": "GTF2H1"
+    },
+    {
+      "targetId": "ENSG00000054983",
+      "score": 0.014441948788229197,
+      "evidenceCount": 6,
+      "symbol": "GALC"
+    },
+    {
+      "targetId": "ENSG00000149968",
+      "score": 0.01441361433270337,
+      "evidenceCount": 2,
+      "symbol": "MMP3"
+    },
+    {
+      "targetId": "ENSG00000088832",
+      "score": 0.01441361433270337,
+      "evidenceCount": 2,
+      "symbol": "FKBP1A"
+    },
+    {
+      "targetId": "ENSG00000145632",
+      "score": 0.014368510738331352,
+      "evidenceCount": 9,
+      "symbol": "PLK2"
+    },
+    {
+      "targetId": "ENSG00000154096",
+      "score": 0.014256862237506912,
+      "evidenceCount": 14,
+      "symbol": "THY1"
+    },
+    {
+      "targetId": "ENSG00000101096",
+      "score": 0.014044034478018668,
+      "evidenceCount": 1,
+      "symbol": "NFATC2"
+    },
+    {
+      "targetId": "ENSG00000133063",
+      "score": 0.014044034478018668,
+      "evidenceCount": 1,
+      "symbol": "CHIT1"
+    },
+    {
+      "targetId": "ENSG00000115317",
+      "score": 0.014044034478018668,
+      "evidenceCount": 1,
+      "symbol": "HTRA2"
+    },
+    {
+      "targetId": "ENSG00000116141",
+      "score": 0.014044034478018668,
+      "evidenceCount": 1,
+      "symbol": "MARK1"
+    },
+    {
+      "targetId": "ENSG00000114626",
+      "score": 0.013489664695991619,
+      "evidenceCount": 2,
+      "symbol": "ABTB1"
+    },
+    {
+      "targetId": "ENSG00000153563",
+      "score": 0.01339993892015983,
+      "evidenceCount": 6,
+      "symbol": "CD8A"
+    },
+    {
+      "targetId": "ENSG00000145384",
+      "score": 0.013304874768649265,
+      "evidenceCount": 1,
+      "symbol": "FABP2"
+    },
+    {
+      "targetId": "ENSG00000104133",
+      "score": 0.013304874768649265,
+      "evidenceCount": 1,
+      "symbol": "SPG11"
+    },
+    {
+      "targetId": "ENSG00000115828",
+      "score": 0.012935294913964562,
+      "evidenceCount": 2,
+      "symbol": "QPCT"
+    },
+    {
+      "targetId": "ENSG00000168959",
+      "score": 0.01258111421989172,
+      "evidenceCount": 4,
+      "symbol": "GRM5"
+    },
+    {
+      "targetId": "ENSG00000135346",
+      "score": 0.01256571505927986,
+      "evidenceCount": 2,
+      "symbol": "CGA"
+    },
+    {
+      "targetId": "ENSG00000141458",
+      "score": 0.011909492924329667,
+      "evidenceCount": 7,
+      "symbol": "NPC1"
+    },
+    {
+      "targetId": "ENSG00000148346",
+      "score": 0.01188958924734835,
+      "evidenceCount": 6,
+      "symbol": "LCN2"
+    },
+    {
+      "targetId": "ENSG00000184840",
+      "score": 0.01188958924734835,
+      "evidenceCount": 6,
+      "symbol": "TMED9"
+    },
+    {
+      "targetId": "ENSG00000176749",
+      "score": 0.01188958924734835,
+      "evidenceCount": 6,
+      "symbol": "CDK5R1"
+    },
+    {
+      "targetId": "ENSG00000166847",
+      "score": 0.01188958924734835,
+      "evidenceCount": 6,
+      "symbol": "DCTN5"
+    },
+    {
+      "targetId": "ENSG00000164733",
+      "score": 0.011869057033199201,
+      "evidenceCount": 6,
+      "symbol": "CTSB"
+    },
+    {
+      "targetId": "ENSG00000136810",
+      "score": 0.011826555349910459,
+      "evidenceCount": 1,
+      "symbol": "TXN"
+    },
+    {
+      "targetId": "ENSG00000114166",
+      "score": 0.011826555349910459,
+      "evidenceCount": 1,
+      "symbol": "KAT2B"
+    },
+    {
+      "targetId": "ENSG00000108773",
+      "score": 0.011826555349910459,
+      "evidenceCount": 1,
+      "symbol": "KAT2A"
+    },
+    {
+      "targetId": "ENSG00000103043",
+      "score": 0.011826555349910459,
+      "evidenceCount": 1,
+      "symbol": "VAC14"
+    },
+    {
+      "targetId": "ENSG00000142192",
+      "score": 0.011630951900589114,
+      "evidenceCount": 15,
+      "symbol": "APP"
+    },
+    {
+      "targetId": "ENSG00000068903",
+      "score": 0.011508306030598634,
+      "evidenceCount": 4,
+      "symbol": "SIRT2"
+    },
+    {
+      "targetId": "ENSG00000169252",
+      "score": 0.011456975495225757,
+      "evidenceCount": 2,
+      "symbol": "ADRB2"
+    },
+    {
+      "targetId": "ENSG00000232810",
+      "score": 0.011456449619128667,
+      "evidenceCount": 8,
+      "symbol": "TNF"
+    },
+    {
+      "targetId": "ENSG00000058056",
+      "score": 0.011436443281076604,
+      "evidenceCount": 3,
+      "symbol": "USP13"
+    },
+    {
+      "targetId": "ENSG00000198959",
+      "score": 0.011405644959852882,
+      "evidenceCount": 4,
+      "symbol": "TGM2"
+    },
+    {
+      "targetId": "ENSG00000107643",
+      "score": 0.011272185567883406,
+      "evidenceCount": 2,
+      "symbol": "MAPK8"
+    },
+    {
+      "targetId": "ENSG00000124882",
+      "score": 0.011272185567883406,
+      "evidenceCount": 2,
+      "symbol": "EREG"
+    },
+    {
+      "targetId": "ENSG00000103335",
+      "score": 0.011272185567883406,
+      "evidenceCount": 2,
+      "symbol": "PIEZO1"
+    },
+    {
+      "targetId": "ENSG00000099194",
+      "score": 0.011269093165017677,
+      "evidenceCount": 7,
+      "symbol": "SCD"
+    },
+    {
+      "targetId": "ENSG00000168993",
+      "score": 0.011251653353734256,
+      "evidenceCount": 3,
+      "symbol": "CPLX1"
+    },
+    {
+      "targetId": "ENSG00000136869",
+      "score": 0.011244056434499067,
+      "evidenceCount": 5,
+      "symbol": "TLR4"
+    },
+    {
+      "targetId": "ENSG00000106327",
+      "score": 0.011087395640541054,
+      "evidenceCount": 1,
+      "symbol": "TFR2"
+    },
+    {
+      "targetId": "ENSG00000130513",
+      "score": 0.011087395640541054,
+      "evidenceCount": 1,
+      "symbol": "GDF15"
+    },
+    {
+      "targetId": "ENSG00000172757",
+      "score": 0.011056597319317329,
+      "evidenceCount": 4,
+      "symbol": "CFL1"
+    },
+    {
+      "targetId": "ENSG00000181092",
+      "score": 0.011046331212242756,
+      "evidenceCount": 3,
+      "symbol": "ADIPOQ"
+    },
+    {
+      "targetId": "ENSG00000058085",
+      "score": 0.011000753920747626,
+      "evidenceCount": 12,
+      "symbol": "LAMC2"
+    },
+    {
+      "targetId": "ENSG00000164400",
+      "score": 0.011000753920747626,
+      "evidenceCount": 12,
+      "symbol": "CSF2"
+    },
+    {
+      "targetId": "ENSG00000119383",
+      "score": 0.010954099901026759,
+      "evidenceCount": 10,
+      "symbol": "PTPA"
+    },
+    {
+      "targetId": "ENSG00000180176",
+      "score": 0.010912610174715932,
+      "evidenceCount": 21,
+      "symbol": "TH"
+    },
+    {
+      "targetId": "ENSG00000166794",
+      "score": 0.010882073499049552,
+      "evidenceCount": 3,
+      "symbol": "PPIB"
+    },
+    {
+      "targetId": "ENSG00000197299",
+      "score": 0.010882073499049552,
+      "evidenceCount": 3,
+      "symbol": "BLM"
+    },
+    {
+      "targetId": "ENSG00000203618",
+      "score": 0.010882073499049552,
+      "evidenceCount": 3,
+      "symbol": "GP1BB"
+    },
+    {
+      "targetId": "ENSG00000112164",
+      "score": 0.010783073690974618,
+      "evidenceCount": 11,
+      "symbol": "GLP1R"
+    },
+    {
+      "targetId": "ENSG00000085377",
+      "score": 0.010361386209076168,
+      "evidenceCount": 10,
+      "symbol": "PREP"
+    },
+    {
+      "targetId": "ENSG00000116161",
+      "score": 0.010348235931171651,
+      "evidenceCount": 1,
+      "symbol": "CACYBP"
+    },
+    {
+      "targetId": "ENSG00000151923",
+      "score": 0.010348235931171651,
+      "evidenceCount": 1,
+      "symbol": "TIAL1"
+    },
+    {
+      "targetId": "ENSG00000137077",
+      "score": 0.010348235931171651,
+      "evidenceCount": 1,
+      "symbol": "CCL21"
+    },
+    {
+      "targetId": "ENSG00000154640",
+      "score": 0.010348235931171651,
+      "evidenceCount": 1,
+      "symbol": "BTG3"
+    },
+    {
+      "targetId": "ENSG00000126353",
+      "score": 0.010348235931171651,
+      "evidenceCount": 1,
+      "symbol": "CCR7"
+    },
+    {
+      "targetId": "ENSG00000066044",
+      "score": 0.010348235931171651,
+      "evidenceCount": 1,
+      "symbol": "ELAVL1"
+    },
+    {
+      "targetId": "ENSG00000120948",
+      "score": 0.010028699810932292,
+      "evidenceCount": 33,
+      "symbol": "TARDBP"
+    },
+    {
+      "targetId": "ENSG00000188554",
+      "score": 0.00997865607648695,
+      "evidenceCount": 2,
+      "symbol": "NBR1"
+    },
+    {
+      "targetId": "ENSG00000007171",
+      "score": 0.00997865607648695,
+      "evidenceCount": 2,
+      "symbol": "NOS2"
+    },
+    {
+      "targetId": "ENSG00000170315",
+      "score": 0.009954635146801498,
+      "evidenceCount": 20,
+      "symbol": "UBB"
+    },
+    {
+      "targetId": "ENSG00000150991",
+      "score": 0.00995093934825465,
+      "evidenceCount": 19,
+      "symbol": "UBC"
+    },
+    {
+      "targetId": "ENSG00000143947",
+      "score": 0.00995093934825465,
+      "evidenceCount": 19,
+      "symbol": "RPS27A"
+    },
+    {
+      "targetId": "ENSG00000221983",
+      "score": 0.00995093934825465,
+      "evidenceCount": 19,
+      "symbol": "UBA52"
+    },
+    {
+      "targetId": "ENSG00000135372",
+      "score": 0.009799477123720982,
+      "evidenceCount": 10,
+      "symbol": "NAT10"
+    },
+    {
+      "targetId": "ENSG00000213927",
+      "score": 0.009799477123720982,
+      "evidenceCount": 10,
+      "symbol": "CCL27"
+    },
+    {
+      "targetId": "ENSG00000107518",
+      "score": 0.009799477123720982,
+      "evidenceCount": 10,
+      "symbol": "ATRNL1"
+    },
+    {
+      "targetId": "ENSG00000163283",
+      "score": 0.009799477123720982,
+      "evidenceCount": 10,
+      "symbol": "ALPP"
+    },
+    {
+      "targetId": "ENSG00000154553",
+      "score": 0.009799477123720982,
+      "evidenceCount": 10,
+      "symbol": "PDLIM3"
+    },
+    {
+      "targetId": "ENSG00000124107",
+      "score": 0.009799477123720982,
+      "evidenceCount": 10,
+      "symbol": "SLPI"
+    },
+    {
+      "targetId": "ENSG00000162174",
+      "score": 0.009799477123720982,
+      "evidenceCount": 10,
+      "symbol": "ASRGL1"
+    },
+    {
+      "targetId": "ENSG00000152818",
+      "score": 0.009793866149144598,
+      "evidenceCount": 2,
+      "symbol": "UTRN"
+    },
+    {
+      "targetId": "ENSG00000163064",
+      "score": 0.009793866149144598,
+      "evidenceCount": 2,
+      "symbol": "EN1"
+    },
+    {
+      "targetId": "ENSG00000139726",
+      "score": 0.009793866149144598,
+      "evidenceCount": 2,
+      "symbol": "DENR"
+    },
+    {
+      "targetId": "ENSG00000072832",
+      "score": 0.009793866149144598,
+      "evidenceCount": 2,
+      "symbol": "CRMP1"
+    },
+    {
+      "targetId": "ENSG00000087470",
+      "score": 0.009793866149144598,
+      "evidenceCount": 2,
+      "symbol": "DNM1L"
+    },
+    {
+      "targetId": "ENSG00000035664",
+      "score": 0.009793866149144598,
+      "evidenceCount": 2,
+      "symbol": "DAPK2"
+    },
+    {
+      "targetId": "ENSG00000125166",
+      "score": 0.009706604239010708,
+      "evidenceCount": 4,
+      "symbol": "GOT2"
+    },
+    {
+      "targetId": "ENSG00000187682",
+      "score": 0.009609076221802246,
+      "evidenceCount": 1,
+      "symbol": "ERAS"
+    },
+    {
+      "targetId": "ENSG00000132591",
+      "score": 0.009609076221802246,
+      "evidenceCount": 1,
+      "symbol": "ERAL1"
+    },
+    {
+      "targetId": "ENSG00000163864",
+      "score": 0.009609076221802246,
+      "evidenceCount": 1,
+      "symbol": "NMNAT3"
+    },
+    {
+      "targetId": "ENSG00000185267",
+      "score": 0.009578277900578523,
+      "evidenceCount": 4,
+      "symbol": "CDNF"
+    },
+    {
+      "targetId": "ENSG00000163485",
+      "score": 0.00949614904398192,
+      "evidenceCount": 4,
+      "symbol": "ADORA1"
+    },
+    {
+      "targetId": "ENSG00000165168",
+      "score": 0.009424286294459896,
+      "evidenceCount": 2,
+      "symbol": "CYBB"
+    },
+    {
+      "targetId": "ENSG00000017427",
+      "score": 0.009239496367117545,
+      "evidenceCount": 2,
+      "symbol": "IGF1"
+    },
+    {
+      "targetId": "ENSG00000136244",
+      "score": 0.00920869804589382,
+      "evidenceCount": 4,
+      "symbol": "IL6"
+    },
+    {
+      "targetId": "ENSG00000159363",
+      "score": 0.00912923837713661,
+      "evidenceCount": 5,
+      "symbol": "ATP13A2"
+    },
+    {
+      "targetId": "ENSG00000173744",
+      "score": 0.009034174225626045,
+      "evidenceCount": 3,
+      "symbol": "AGFG1"
+    },
+    {
+      "targetId": "ENSG00000155313",
+      "score": 0.008931513154880295,
+      "evidenceCount": 3,
+      "symbol": "USP25"
+    },
+    {
+      "targetId": "ENSG00000030582",
+      "score": 0.008871353767423283,
+      "evidenceCount": 5,
+      "symbol": "GRN"
+    },
+    {
+      "targetId": "ENSG00000135679",
+      "score": 0.008869916512432841,
+      "evidenceCount": 1,
+      "symbol": "MDM2"
+    },
+    {
+      "targetId": "ENSG00000047457",
+      "score": 0.008869916512432841,
+      "evidenceCount": 1,
+      "symbol": "CP"
+    },
+    {
+      "targetId": "ENSG00000123213",
+      "score": 0.008869916512432841,
+      "evidenceCount": 1,
+      "symbol": "NLN"
+    },
+    {
+      "targetId": "ENSG00000177885",
+      "score": 0.008869916512432841,
+      "evidenceCount": 1,
+      "symbol": "GRB2"
+    },
+    {
+      "targetId": "ENSG00000205667",
+      "score": 0.008869916512432841,
+      "evidenceCount": 1,
+      "symbol": "ARSH"
+    },
+    {
+      "targetId": "ENSG00000104763",
+      "score": 0.008782654602298955,
+      "evidenceCount": 4,
+      "symbol": "ASAH1"
+    },
+    {
+      "targetId": "ENSG00000142168",
+      "score": 0.008713461040616318,
+      "evidenceCount": 5,
+      "symbol": "SOD1"
+    },
+    {
+      "targetId": "ENSG00000007952",
+      "score": 0.008685126585090493,
+      "evidenceCount": 2,
+      "symbol": "NOX1"
+    },
+    {
+      "targetId": "ENSG00000204472",
+      "score": 0.00867239661231802,
+      "evidenceCount": 6,
+      "symbol": "AIF1"
+    },
+    {
+      "targetId": "ENSG00000106153",
+      "score": 0.008664594370941343,
+      "evidenceCount": 3,
+      "symbol": "CHCHD2"
+    },
+    {
+      "targetId": "ENSG00000069535",
+      "score": 0.008644062156792193,
+      "evidenceCount": 4,
+      "symbol": "MAOB"
+    },
+    {
+      "targetId": "ENSG00000138760",
+      "score": 0.008574868595109555,
+      "evidenceCount": 5,
+      "symbol": "SCARB2"
+    },
+    {
+      "targetId": "ENSG00000116288",
+      "score": 0.00852531192570968,
+      "evidenceCount": 15,
+      "symbol": "PARK7"
+    },
+    {
+      "targetId": "ENSG00000106305",
+      "score": 0.00844017727029113,
+      "evidenceCount": 6,
+      "symbol": "AIMP2"
+    },
+    {
+      "targetId": "ENSG00000197324",
+      "score": 0.008387409479927815,
+      "evidenceCount": 4,
+      "symbol": "LRP10"
+    },
+    {
+      "targetId": "ENSG00000008056",
+      "score": 0.008225820954574003,
+      "evidenceCount": 6,
+      "symbol": "SYN1"
+    },
+    {
+      "targetId": "ENSG00000259706",
+      "score": 0.008202619552585467,
+      "evidenceCount": 4,
+      "symbol": "HSP90B2P"
+    },
+    {
+      "targetId": "ENSG00000104044",
+      "score": 0.00819235344551089,
+      "evidenceCount": 3,
+      "symbol": "OCA2"
+    },
+    {
+      "targetId": "ENSG00000152782",
+      "score": 0.00819235344551089,
+      "evidenceCount": 3,
+      "symbol": "PANK1"
+    },
+    {
+      "targetId": "ENSG00000071537",
+      "score": 0.00813075680306344,
+      "evidenceCount": 1,
+      "symbol": "SEL1L"
+    },
+    {
+      "targetId": "ENSG00000254647",
+      "score": 0.008020498813082502,
+      "evidenceCount": 5,
+      "symbol": "INS"
+    },
+    {
+      "targetId": "ENSG00000182578",
+      "score": 0.008017829625243115,
+      "evidenceCount": 4,
+      "symbol": "CSF1R"
+    },
+    {
+      "targetId": "ENSG00000083937",
+      "score": 0.00794596687572109,
+      "evidenceCount": 2,
+      "symbol": "CHMP2B"
+    },
+    {
+      "targetId": "ENSG00000121335",
+      "score": 0.00794596687572109,
+      "evidenceCount": 2,
+      "symbol": "PRB2"
+    },
+    {
+      "targetId": "ENSG00000102882",
+      "score": 0.00794596687572109,
+      "evidenceCount": 2,
+      "symbol": "MAPK3"
+    },
+    {
+      "targetId": "ENSG00000142082",
+      "score": 0.00794596687572109,
+      "evidenceCount": 2,
+      "symbol": "SIRT3"
+    },
+    {
+      "targetId": "ENSG00000164434",
+      "score": 0.00794596687572109,
+      "evidenceCount": 2,
+      "symbol": "FABP7"
+    },
+    {
+      "targetId": "ENSG00000086232",
+      "score": 0.00794596687572109,
+      "evidenceCount": 2,
+      "symbol": "EIF2AK1"
+    },
+    {
+      "targetId": "ENSG00000135047",
+      "score": 0.00794596687572109,
+      "evidenceCount": 2,
+      "symbol": "CTSL"
+    },
+    {
+      "targetId": "ENSG00000171119",
+      "score": 0.007761176948378739,
+      "evidenceCount": 2,
+      "symbol": "NRTN"
+    },
+    {
+      "targetId": "ENSG00000126581",
+      "score": 0.007761176948378739,
+      "evidenceCount": 2,
+      "symbol": "BECN1"
+    },
+    {
+      "targetId": "ENSG00000127419",
+      "score": 0.007761176948378739,
+      "evidenceCount": 2,
+      "symbol": "TMEM175"
+    },
+    {
+      "targetId": "ENSG00000150782",
+      "score": 0.007761176948378739,
+      "evidenceCount": 2,
+      "symbol": "IL18"
+    },
+    {
+      "targetId": "ENSG00000143772",
+      "score": 0.007761176948378739,
+      "evidenceCount": 1,
+      "symbol": "ITPKB"
+    },
+    {
+      "targetId": "ENSG00000122042",
+      "score": 0.007591786181648249,
+      "evidenceCount": 4,
+      "symbol": "UBL3"
+    },
+    {
+      "targetId": "ENSG00000118596",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "SLC16A7"
+    },
+    {
+      "targetId": "ENSG00000135441",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "BLOC1S1"
+    },
+    {
+      "targetId": "ENSG00000134595",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "SOX3"
+    },
+    {
+      "targetId": "ENSG00000134852",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "CLOCK"
+    },
+    {
+      "targetId": "ENSG00000156076",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "WIF1"
+    },
+    {
+      "targetId": "ENSG00000167468",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "GPX4"
+    },
+    {
+      "targetId": "ENSG00000078808",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "SDF4"
+    },
+    {
+      "targetId": "ENSG00000198087",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "CD2AP"
+    },
+    {
+      "targetId": "ENSG00000109471",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "IL2"
+    },
+    {
+      "targetId": "ENSG00000054148",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "PHPT1"
+    },
+    {
+      "targetId": "ENSG00000171855",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "IFNB1"
+    },
+    {
+      "targetId": "ENSG00000102076",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "OPN1LW"
+    },
+    {
+      "targetId": "ENSG00000108387",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "SEPTIN4"
+    },
+    {
+      "targetId": "ENSG00000176884",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "GRIN1"
+    },
+    {
+      "targetId": "ENSG00000258839",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "MC1R"
+    },
+    {
+      "targetId": "ENSG00000177143",
+      "score": 0.007391597093694037,
+      "evidenceCount": 1,
+      "symbol": "CETN1"
+    },
+    {
+      "targetId": "ENSG00000080815",
+      "score": 0.007189650196793789,
+      "evidenceCount": 8,
+      "symbol": "PSEN1"
+    },
+    {
+      "targetId": "ENSG00000136235",
+      "score": 0.007186274952202536,
+      "evidenceCount": 3,
+      "symbol": "GPNMB"
+    },
+    {
+      "targetId": "ENSG00000091513",
+      "score": 0.006960420596561885,
+      "evidenceCount": 3,
+      "symbol": "TF"
+    },
+    {
+      "targetId": "ENSG00000160226",
+      "score": 0.006652437384324633,
+      "evidenceCount": 1,
+      "symbol": "CFAP410"
+    },
+    {
+      "targetId": "ENSG00000157916",
+      "score": 0.006652437384324633,
+      "evidenceCount": 1,
+      "symbol": "RER1"
+    },
+    {
+      "targetId": "ENSG00000136868",
+      "score": 0.006652437384324633,
+      "evidenceCount": 1,
+      "symbol": "SLC31A1"
+    },
+    {
+      "targetId": "ENSG00000149735",
+      "score": 0.006652437384324633,
+      "evidenceCount": 1,
+      "symbol": "GPHA2"
+    },
+    {
+      "targetId": "ENSG00000250510",
+      "score": 0.006652437384324633,
+      "evidenceCount": 1,
+      "symbol": "GPR162"
+    },
+    {
+      "targetId": "ENSG00000185344",
+      "score": 0.006652437384324633,
+      "evidenceCount": 1,
+      "symbol": "ATP6V0A2"
+    },
+    {
+      "targetId": "ENSG00000143252",
+      "score": 0.006652437384324633,
+      "evidenceCount": 1,
+      "symbol": "SDHC"
+    },
+    {
+      "targetId": "ENSG00000108823",
+      "score": 0.006652437384324633,
+      "evidenceCount": 1,
+      "symbol": "SGCA"
+    },
+    {
+      "targetId": "ENSG00000198929",
+      "score": 0.006652437384324633,
+      "evidenceCount": 1,
+      "symbol": "NOS1AP"
+    },
+    {
+      "targetId": "ENSG00000067560",
+      "score": 0.006571745782718473,
+      "evidenceCount": 5,
+      "symbol": "RHOA"
+    },
+    {
+      "targetId": "ENSG00000075624",
+      "score": 0.006515673981976258,
+      "evidenceCount": 8,
+      "symbol": "ACTB"
+    },
+    {
+      "targetId": "ENSG00000184381",
+      "score": 0.006467647456982281,
+      "evidenceCount": 2,
+      "symbol": "PLA2G6"
+    },
+    {
+      "targetId": "ENSG00000142208",
+      "score": 0.0061520673255098446,
+      "evidenceCount": 5,
+      "symbol": "AKT1"
+    },
+    {
+      "targetId": "ENSG00000126432",
+      "score": 0.006126402057823407,
+      "evidenceCount": 5,
+      "symbol": "PRDX5"
+    },
+    {
+      "targetId": "ENSG00000087494",
+      "score": 0.006126402057823407,
+      "evidenceCount": 5,
+      "symbol": "PTHLH"
+    },
+    {
+      "targetId": "ENSG00000241360",
+      "score": 0.006126402057823407,
+      "evidenceCount": 5,
+      "symbol": "PDXP"
+    },
+    {
+      "targetId": "ENSG00000123560",
+      "score": 0.006126402057823407,
+      "evidenceCount": 5,
+      "symbol": "PLP1"
+    },
+    {
+      "targetId": "ENSG00000145016",
+      "score": 0.0059132776749552295,
+      "evidenceCount": 1,
+      "symbol": "RUBCN"
+    },
+    {
+      "targetId": "ENSG00000106636",
+      "score": 0.0059132776749552295,
+      "evidenceCount": 1,
+      "symbol": "YKT6"
+    },
+    {
+      "targetId": "ENSG00000010610",
+      "score": 0.005861947139582353,
+      "evidenceCount": 4,
+      "symbol": "CD4"
+    },
+    {
+      "targetId": "ENSG00000044574",
+      "score": 0.005859483273884456,
+      "evidenceCount": 5,
+      "symbol": "HSPA5"
+    },
+    {
+      "targetId": "ENSG00000182054",
+      "score": 0.005615560569792552,
+      "evidenceCount": 4,
+      "symbol": "IDH2"
+    },
+    {
+      "targetId": "ENSG00000155961",
+      "score": 0.005543697820270527,
+      "evidenceCount": 2,
+      "symbol": "RAB39B"
+    },
+    {
+      "targetId": "ENSG00000136238",
+      "score": 0.005543697820270527,
+      "evidenceCount": 2,
+      "symbol": "RAC1"
+    },
+    {
+      "targetId": "ENSG00000124532",
+      "score": 0.005543697820270527,
+      "evidenceCount": 2,
+      "symbol": "MRS2"
+    },
+    {
+      "targetId": "ENSG00000181090",
+      "score": 0.005543697820270527,
+      "evidenceCount": 2,
+      "symbol": "EHMT1"
+    },
+    {
+      "targetId": "ENSG00000220201",
+      "score": 0.005543697820270527,
+      "evidenceCount": 2,
+      "symbol": "ZGLP1"
+    },
+    {
+      "targetId": "ENSG00000104783",
+      "score": 0.005543697820270527,
+      "evidenceCount": 2,
+      "symbol": "KCNN4"
+    },
+    {
+      "targetId": "ENSG00000075785",
+      "score": 0.005543697820270527,
+      "evidenceCount": 2,
+      "symbol": "RAB7A"
+    },
+    {
+      "targetId": "ENSG00000115263",
+      "score": 0.005543697820270527,
+      "evidenceCount": 2,
+      "symbol": "GCG"
+    },
+    {
+      "targetId": "ENSG00000276600",
+      "score": 0.005543697820270527,
+      "evidenceCount": 2,
+      "symbol": "RAB7B"
+    },
+    {
+      "targetId": "ENSG00000096384",
+      "score": 0.005305113491857403,
+      "evidenceCount": 5,
+      "symbol": "HSP90AB1"
+    },
+    {
+      "targetId": "ENSG00000080824",
+      "score": 0.005305113491857403,
+      "evidenceCount": 5,
+      "symbol": "HSP90AA1"
+    },
+    {
+      "targetId": "ENSG00000248643",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "RBM14-RBM4"
+    },
+    {
+      "targetId": "ENSG00000135457",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "TFCP2"
+    },
+    {
+      "targetId": "ENSG00000164938",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "TP53INP1"
+    },
+    {
+      "targetId": "ENSG00000139618",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "BRCA2"
+    },
+    {
+      "targetId": "ENSG00000168314",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "MOBP"
+    },
+    {
+      "targetId": "ENSG00000197256",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "KANK2"
+    },
+    {
+      "targetId": "ENSG00000163467",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "TSACC"
+    },
+    {
+      "targetId": "ENSG00000144554",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "FANCD2"
+    },
+    {
+      "targetId": "ENSG00000158473",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "CD1D"
+    },
+    {
+      "targetId": "ENSG00000115252",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "PDE1A"
+    },
+    {
+      "targetId": "ENSG00000177119",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "ANO6"
+    },
+    {
+      "targetId": "ENSG00000239306",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "RBM14"
+    },
+    {
+      "targetId": "ENSG00000131459",
+      "score": 0.0051741179655858255,
+      "evidenceCount": 1,
+      "symbol": "GFPT2"
+    },
+    {
+      "targetId": "ENSG00000291237",
+      "score": 0.005174117965585825,
+      "evidenceCount": 2,
+      "symbol": "SOD2"
+    },
+    {
+      "targetId": "ENSG00000153234",
+      "score": 0.0051535857514366755,
+      "evidenceCount": 3,
+      "symbol": "NR4A2"
+    },
+    {
+      "targetId": "ENSG00000129925",
+      "score": 0.00512278743021295,
+      "evidenceCount": 4,
+      "symbol": "PGAP6"
+    },
+    {
+      "targetId": "ENSG00000198793",
+      "score": 0.00487640086042315,
+      "evidenceCount": 4,
+      "symbol": "MTOR"
+    },
+    {
+      "targetId": "ENSG00000129226",
+      "score": 0.004784005896751974,
+      "evidenceCount": 3,
+      "symbol": "CD68"
+    },
+    {
+      "targetId": "ENSG00000091592",
+      "score": 0.004694280120920187,
+      "evidenceCount": 5,
+      "symbol": "NLRP1"
+    },
+    {
+      "targetId": "ENSG00000091436",
+      "score": 0.004694280120920187,
+      "evidenceCount": 5,
+      "symbol": "MAP3K20"
+    },
+    {
+      "targetId": "ENSG00000128274",
+      "score": 0.004694280120920187,
+      "evidenceCount": 5,
+      "symbol": "A4GALT"
+    },
+    {
+      "targetId": "ENSG00000123384",
+      "score": 0.004681344826006223,
+      "evidenceCount": 3,
+      "symbol": "LRP1"
+    },
+    {
+      "targetId": "ENSG00000234066",
+      "score": 0.0046070182107863,
+      "evidenceCount": 6,
+      "symbol": "TAS2R62P"
+    },
+    {
+      "targetId": "ENSG00000115053",
+      "score": 0.004588949862335047,
+      "evidenceCount": 4,
+      "symbol": "NCL"
+    },
+    {
+      "targetId": "ENSG00000006210",
+      "score": 0.004506821005738447,
+      "evidenceCount": 4,
+      "symbol": "CX3CL1"
+    },
+    {
+      "targetId": "ENSG00000105290",
+      "score": 0.004496554898663872,
+      "evidenceCount": 3,
+      "symbol": "APLP1"
+    },
+    {
+      "targetId": "ENSG00000163599",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "CTLA4"
+    },
+    {
+      "targetId": "ENSG00000100292",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "HMOX1"
+    },
+    {
+      "targetId": "ENSG00000105971",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "CAV2"
+    },
+    {
+      "targetId": "ENSG00000165092",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "ALDH1A1"
+    },
+    {
+      "targetId": "ENSG00000166340",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "TPP1"
+    },
+    {
+      "targetId": "ENSG00000167207",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "NOD2"
+    },
+    {
+      "targetId": "ENSG00000204435",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "CSNK2B"
+    },
+    {
+      "targetId": "ENSG00000133083",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "DCLK1"
+    },
+    {
+      "targetId": "ENSG00000134243",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "SORT1"
+    },
+    {
+      "targetId": "ENSG00000168496",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "FEN1"
+    },
+    {
+      "targetId": "ENSG00000156475",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "PPP2R2B"
+    },
+    {
+      "targetId": "ENSG00000169047",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "IRS1"
+    },
+    {
+      "targetId": "ENSG00000125779",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "PANK2"
+    },
+    {
+      "targetId": "ENSG00000140941",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "MAP1LC3B"
+    },
+    {
+      "targetId": "ENSG00000221869",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "CEBPD"
+    },
+    {
+      "targetId": "ENSG00000087250",
+      "score": 0.004434958256216421,
+      "evidenceCount": 1,
+      "symbol": "MT3"
+    },
+    {
+      "targetId": "ENSG00000134308",
+      "score": 0.004414426042067272,
+      "evidenceCount": 3,
+      "symbol": "YWHAQ"
+    },
+    {
+      "targetId": "ENSG00000144895",
+      "score": 0.004414426042067272,
+      "evidenceCount": 3,
+      "symbol": "EIF2A"
+    },
+    {
+      "targetId": "ENSG00000170027",
+      "score": 0.004414426042067272,
+      "evidenceCount": 3,
+      "symbol": "YWHAG"
+    },
+    {
+      "targetId": "ENSG00000142549",
+      "score": 0.004414426042067272,
+      "evidenceCount": 3,
+      "symbol": "IGLON5"
+    },
+    {
+      "targetId": "ENSG00000111537",
+      "score": 0.0043220310783960965,
+      "evidenceCount": 4,
+      "symbol": "IFNG"
+    },
+    {
+      "targetId": "ENSG00000087085",
+      "score": 0.004250168328874071,
+      "evidenceCount": 2,
+      "symbol": "ACHE"
+    },
+    {
+      "targetId": "ENSG00000172020",
+      "score": 0.004250168328874071,
+      "evidenceCount": 2,
+      "symbol": "GAP43"
+    },
+    {
+      "targetId": "ENSG00000211897",
+      "score": 0.004250168328874071,
+      "evidenceCount": 2,
+      "symbol": "IGHG3"
+    },
+    {
+      "targetId": "ENSG00000095970",
+      "score": 0.004229636114724921,
+      "evidenceCount": 3,
+      "symbol": "TREM2"
+    },
+    {
+      "targetId": "ENSG00000042832",
+      "score": 0.004229636114724921,
+      "evidenceCount": 3,
+      "symbol": "TG"
+    },
+    {
+      "targetId": "ENSG00000070610",
+      "score": 0.004229636114724921,
+      "evidenceCount": 3,
+      "symbol": "GBA2"
+    },
+    {
+      "targetId": "ENSG00000138413",
+      "score": 0.004229636114724921,
+      "evidenceCount": 3,
+      "symbol": "IDH1"
+    },
+    {
+      "targetId": "ENSG00000205927",
+      "score": 0.00406537840153172,
+      "evidenceCount": 2,
+      "symbol": "OLIG2"
+    },
+    {
+      "targetId": "ENSG00000148053",
+      "score": 0.00406537840153172,
+      "evidenceCount": 2,
+      "symbol": "NTRK2"
+    },
+    {
+      "targetId": "ENSG00000106460",
+      "score": 0.003849790152965644,
+      "evidenceCount": 4,
+      "symbol": "TMEM106B"
+    },
+    {
+      "targetId": "ENSG00000111640",
+      "score": 0.0037573951892944687,
+      "evidenceCount": 3,
+      "symbol": "GAPDH"
+    },
+    {
+      "targetId": "ENSG00000109084",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "TMEM97"
+    },
+    {
+      "targetId": "ENSG00000224389",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "C4B"
+    },
+    {
+      "targetId": "ENSG00000103194",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "USP10"
+    },
+    {
+      "targetId": "ENSG00000136859",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "ANGPTL2"
+    },
+    {
+      "targetId": "ENSG00000138071",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "ACTR2"
+    },
+    {
+      "targetId": "ENSG00000103490",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "PYCARD"
+    },
+    {
+      "targetId": "ENSG00000113575",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "PPP2CA"
+    },
+    {
+      "targetId": "ENSG00000104435",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "STMN2"
+    },
+    {
+      "targetId": "ENSG00000107859",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "PITX3"
+    },
+    {
+      "targetId": "ENSG00000137845",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "ADAM10"
+    },
+    {
+      "targetId": "ENSG00000214253",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "FIS1"
+    },
+    {
+      "targetId": "ENSG00000107317",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "PTGDS"
+    },
+    {
+      "targetId": "ENSG00000108953",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "YWHAE"
+    },
+    {
+      "targetId": "ENSG00000145920",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "CPLX2"
+    },
+    {
+      "targetId": "ENSG00000240065",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "PSMB9"
+    },
+    {
+      "targetId": "ENSG00000149131",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "SERPING1"
+    },
+    {
+      "targetId": "ENSG00000111732",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "AICDA"
+    },
+    {
+      "targetId": "ENSG00000136827",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "TOR1A"
+    },
+    {
+      "targetId": "ENSG00000109846",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "CRYAB"
+    },
+    {
+      "targetId": "ENSG00000106400",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "ZNHIT1"
+    },
+    {
+      "targetId": "ENSG00000137563",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "GGH"
+    },
+    {
+      "targetId": "ENSG00000066468",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "FGFR2"
+    },
+    {
+      "targetId": "ENSG00000244274",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "DBNDD2"
+    },
+    {
+      "targetId": "ENSG00000089169",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "RPH3A"
+    },
+    {
+      "targetId": "ENSG00000259384",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "GH1"
+    },
+    {
+      "targetId": "ENSG00000269335",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "IKBKG"
+    },
+    {
+      "targetId": "ENSG00000090432",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "MUL1"
+    },
+    {
+      "targetId": "ENSG00000127946",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "HIP1"
+    },
+    {
+      "targetId": "ENSG00000169245",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "CXCL10"
+    },
+    {
+      "targetId": "ENSG00000169562",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "GJB1"
+    },
+    {
+      "targetId": "ENSG00000125656",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "CLPP"
+    },
+    {
+      "targetId": "ENSG00000167281",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "RBFOX3"
+    },
+    {
+      "targetId": "ENSG00000171109",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "MFN1"
+    },
+    {
+      "targetId": "ENSG00000049860",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "HEXB"
+    },
+    {
+      "targetId": "ENSG00000055332",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "EIF2AK2"
+    },
+    {
+      "targetId": "ENSG00000175809",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "CBLL2"
+    },
+    {
+      "targetId": "ENSG00000079435",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "LIPE"
+    },
+    {
+      "targetId": "ENSG00000069482",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "GAL"
+    },
+    {
+      "targetId": "ENSG00000101846",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "STS"
+    },
+    {
+      "targetId": "ENSG00000168028",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "RPSA"
+    },
+    {
+      "targetId": "ENSG00000167136",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "ENDOG"
+    },
+    {
+      "targetId": "ENSG00000164305",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "CASP3"
+    },
+    {
+      "targetId": "ENSG00000159082",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "SYNJ1"
+    },
+    {
+      "targetId": "ENSG00000013364",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "MVP"
+    },
+    {
+      "targetId": "ENSG00000198836",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "OPA1"
+    },
+    {
+      "targetId": "ENSG00000138207",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "RBP4"
+    },
+    {
+      "targetId": "ENSG00000132535",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "DLG4"
+    },
+    {
+      "targetId": "ENSG00000132383",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "RPA1"
+    },
+    {
+      "targetId": "ENSG00000100097",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "LGALS1"
+    },
+    {
+      "targetId": "ENSG00000132170",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "PPARG"
+    },
+    {
+      "targetId": "ENSG00000010256",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "UQCRC1"
+    },
+    {
+      "targetId": "ENSG00000165646",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 2,
+      "symbol": "SLC18A2"
+    },
+    {
+      "targetId": "ENSG00000132670",
+      "score": 0.0036957985468470183,
+      "evidenceCount": 1,
+      "symbol": "PTPRA"
+    },
+    {
+      "targetId": "ENSG00000105974",
+      "score": 0.003675266332697868,
+      "evidenceCount": 3,
+      "symbol": "CAV1"
+    },
+    {
+      "targetId": "ENSG00000166851",
+      "score": 0.003511008619504667,
+      "evidenceCount": 2,
+      "symbol": "PLK1"
+    },
+    {
+      "targetId": "ENSG00000119508",
+      "score": 0.003511008619504667,
+      "evidenceCount": 2,
+      "symbol": "NR4A3"
+    },
+    {
+      "targetId": "ENSG00000090339",
+      "score": 0.0034904764053555167,
+      "evidenceCount": 3,
+      "symbol": "ICAM1"
+    },
+    {
+      "targetId": "ENSG00000089041",
+      "score": 0.0033262186921623163,
+      "evidenceCount": 2,
+      "symbol": "P2RX7"
+    },
+    {
+      "targetId": "ENSG00000104969",
+      "score": 0.0033262186921623163,
+      "evidenceCount": 2,
+      "symbol": "SGTA"
+    },
+    {
+      "targetId": "ENSG00000176974",
+      "score": 0.0033262186921623163,
+      "evidenceCount": 1,
+      "symbol": "SHMT1"
+    },
+    {
+      "targetId": "ENSG00000165416",
+      "score": 0.0033262186921623163,
+      "evidenceCount": 2,
+      "symbol": "SUGT1"
+    },
+    {
+      "targetId": "ENSG00000122882",
+      "score": 0.0033262186921623163,
+      "evidenceCount": 2,
+      "symbol": "ECD"
+    },
+    {
+      "targetId": "ENSG00000136143",
+      "score": 0.003286591518854456,
+      "evidenceCount": 6,
+      "symbol": "SUCLA2"
+    },
+    {
+      "targetId": "ENSG00000041353",
+      "score": 0.0032455270905561565,
+      "evidenceCount": 5,
+      "symbol": "RAB27B"
+    },
+    {
+      "targetId": "ENSG00000170276",
+      "score": 0.0031697632203457927,
+      "evidenceCount": 5,
+      "symbol": "HSPB2"
+    },
+    {
+      "targetId": "ENSG00000106211",
+      "score": 0.0031697632203457927,
+      "evidenceCount": 5,
+      "symbol": "HSPB1"
+    },
+    {
+      "targetId": "ENSG00000169271",
+      "score": 0.0031697632203457927,
+      "evidenceCount": 5,
+      "symbol": "HSPB3"
+    },
+    {
+      "targetId": "ENSG00000047597",
+      "score": 0.00311063044359624,
+      "evidenceCount": 4,
+      "symbol": "XK"
+    },
+    {
+      "targetId": "ENSG00000124486",
+      "score": 0.00302850158699964,
+      "evidenceCount": 4,
+      "symbol": "USP9X"
+    },
+    {
+      "targetId": "ENSG00000171885",
+      "score": 0.00302850158699964,
+      "evidenceCount": 4,
+      "symbol": "AQP4"
+    },
+    {
+      "targetId": "ENSG00000164458",
+      "score": 0.0030182354799250643,
+      "evidenceCount": 3,
+      "symbol": "TBXT"
+    },
+    {
+      "targetId": "ENSG00000203710",
+      "score": 0.0030182354799250643,
+      "evidenceCount": 3,
+      "symbol": "CR1"
+    },
+    {
+      "targetId": "ENSG00000136110",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "CNMD"
+    },
+    {
+      "targetId": "ENSG00000134982",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "APC"
+    },
+    {
+      "targetId": "ENSG00000107165",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "TYRP1"
+    },
+    {
+      "targetId": "ENSG00000120915",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "EPHX2"
+    },
+    {
+      "targetId": "ENSG00000120725",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "SIL1"
+    },
+    {
+      "targetId": "ENSG00000204842",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "ATXN2"
+    },
+    {
+      "targetId": "ENSG00000154781",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "CCDC174"
+    },
+    {
+      "targetId": "ENSG00000174990",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "CA5A"
+    },
+    {
+      "targetId": "ENSG00000065320",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "NTN1"
+    },
+    {
+      "targetId": "ENSG00000084774",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "CAD"
+    },
+    {
+      "targetId": "ENSG00000135821",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "GLUL"
+    },
+    {
+      "targetId": "ENSG00000172493",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "AFF1"
+    },
+    {
+      "targetId": "ENSG00000105697",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "HAMP"
+    },
+    {
+      "targetId": "ENSG00000165240",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "ATP7A"
+    },
+    {
+      "targetId": "ENSG00000172179",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "PRL"
+    },
+    {
+      "targetId": "ENSG00000154229",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "PRKCA"
+    },
+    {
+      "targetId": "ENSG00000036530",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "CYP46A1"
+    },
+    {
+      "targetId": "ENSG00000166949",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "SMAD3"
+    },
+    {
+      "targetId": "ENSG00000073756",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "PTGS2"
+    },
+    {
+      "targetId": "ENSG00000165025",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "SYK"
+    },
+    {
+      "targetId": "ENSG00000137825",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "ITPKA"
+    },
+    {
+      "targetId": "ENSG00000253365",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "IGKV1D-22"
+    },
+    {
+      "targetId": "ENSG00000182774",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "RPS17"
+    },
+    {
+      "targetId": "ENSG00000122863",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "CHST3"
+    },
+    {
+      "targetId": "ENSG00000163631",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "ALB"
+    },
+    {
+      "targetId": "ENSG00000116885",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "OSCP1"
+    },
+    {
+      "targetId": "ENSG00000004948",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "CALCR"
+    },
+    {
+      "targetId": "ENSG00000143546",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "S100A8"
+    },
+    {
+      "targetId": "ENSG00000215021",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "PHB2"
+    },
+    {
+      "targetId": "ENSG00000162129",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "CLPB"
+    },
+    {
+      "targetId": "ENSG00000101557",
+      "score": 0.0029566388374776147,
+      "evidenceCount": 1,
+      "symbol": "USP14"
+    },
+    {
+      "targetId": "ENSG00000116030",
+      "score": 0.0029361066233284643,
+      "evidenceCount": 3,
+      "symbol": "SUMO1"
+    },
+    {
+      "targetId": "ENSG00000103266",
+      "score": 0.0029361066233284643,
+      "evidenceCount": 3,
+      "symbol": "STUB1"
+    },
+    {
+      "targetId": "ENSG00000168621",
+      "score": 0.002902844436406841,
+      "evidenceCount": 5,
+      "symbol": "GDNF"
+    },
+    {
+      "targetId": "ENSG00000109320",
+      "score": 0.002902844436406841,
+      "evidenceCount": 5,
+      "symbol": "NFKB1"
+    },
+    {
+      "targetId": "ENSG00000115415",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "STAT1"
+    },
+    {
+      "targetId": "ENSG00000013374",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "NUB1"
+    },
+    {
+      "targetId": "ENSG00000104327",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "CALB1"
+    },
+    {
+      "targetId": "ENSG00000243156",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "MICAL3"
+    },
+    {
+      "targetId": "ENSG00000100362",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "PVALB"
+    },
+    {
+      "targetId": "ENSG00000197746",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "PSAP"
+    },
+    {
+      "targetId": "ENSG00000157005",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "SST"
+    },
+    {
+      "targetId": "ENSG00000162409",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "PRKAA2"
+    },
+    {
+      "targetId": "ENSG00000105383",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "CD33"
+    },
+    {
+      "targetId": "ENSG00000132356",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "PRKAA1"
+    },
+    {
+      "targetId": "ENSG00000115687",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "PASK"
+    },
+    {
+      "targetId": "ENSG00000065243",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "PKN2"
+    },
+    {
+      "targetId": "ENSG00000034677",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "RNF19A"
+    },
+    {
+      "targetId": "ENSG00000029534",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "ANK1"
+    },
+    {
+      "targetId": "ENSG00000111725",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "PRKAB1"
+    },
+    {
+      "targetId": "ENSG00000084674",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "APOB"
+    },
+    {
+      "targetId": "ENSG00000214944",
+      "score": 0.0027718489101352635,
+      "evidenceCount": 2,
+      "symbol": "ARHGEF28"
+    },
+    {
+      "targetId": "ENSG00000198408",
+      "score": 0.002751316695986113,
+      "evidenceCount": 3,
+      "symbol": "OGA"
+    },
+    {
+      "targetId": "ENSG00000100030",
+      "score": 0.002751316695986113,
+      "evidenceCount": 3,
+      "symbol": "MAPK1"
+    },
+    {
+      "targetId": "ENSG00000131781",
+      "score": 0.002751316695986113,
+      "evidenceCount": 3,
+      "symbol": "FMO5"
+    },
+    {
+      "targetId": "ENSG00000100225",
+      "score": 0.002751316695986113,
+      "evidenceCount": 3,
+      "symbol": "FBXO7"
+    },
+    {
+      "targetId": "ENSG00000166311",
+      "score": 0.002751316695986113,
+      "evidenceCount": 3,
+      "symbol": "SMPD1"
+    },
+    {
+      "targetId": "ENSG00000180370",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "PAK2"
+    },
+    {
+      "targetId": "ENSG00000082701",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "GSK3B"
+    },
+    {
+      "targetId": "ENSG00000064932",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "SBNO2"
+    },
+    {
+      "targetId": "ENSG00000109819",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "PPARGC1A"
+    },
+    {
+      "targetId": "ENSG00000069974",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "RAB27A"
+    },
+    {
+      "targetId": "ENSG00000139697",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "SBNO1"
+    },
+    {
+      "targetId": "ENSG00000067369",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "TP53BP1"
+    },
+    {
+      "targetId": "ENSG00000126767",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "ELK1"
+    },
+    {
+      "targetId": "ENSG00000160200",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "CBS"
+    },
+    {
+      "targetId": "ENSG00000151067",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "CACNA1C"
+    },
+    {
+      "targetId": "ENSG00000103769",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "RAB11A"
+    },
+    {
+      "targetId": "ENSG00000136603",
+      "score": 0.0025870589827929123,
+      "evidenceCount": 2,
+      "symbol": "SKIL"
+    },
+    {
+      "targetId": "ENSG00000169688",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "MT1B"
+    },
+    {
+      "targetId": "ENSG00000069329",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "VPS35"
+    },
+    {
+      "targetId": "ENSG00000059377",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "TBXAS1"
+    },
+    {
+      "targetId": "ENSG00000004478",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "FKBP4"
+    },
+    {
+      "targetId": "ENSG00000131389",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "SLC6A6"
+    },
+    {
+      "targetId": "ENSG00000173465",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "ZNRD2"
+    },
+    {
+      "targetId": "ENSG00000290663",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "MT1IP"
+    },
+    {
+      "targetId": "ENSG00000166170",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "BAG5"
+    },
+    {
+      "targetId": "ENSG00000125740",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "FOSB"
+    },
+    {
+      "targetId": "ENSG00000166033",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "HTRA1"
+    },
+    {
+      "targetId": "ENSG00000170214",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "ADRA1B"
+    },
+    {
+      "targetId": "ENSG00000165949",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "IFI27"
+    },
+    {
+      "targetId": "ENSG00000167193",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "CRK"
+    },
+    {
+      "targetId": "ENSG00000165819",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "METTL3"
+    },
+    {
+      "targetId": "ENSG00000172137",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "CALB2"
+    },
+    {
+      "targetId": "ENSG00000187193",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "MT1X"
+    },
+    {
+      "targetId": "ENSG00000290662",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "MT1JP"
+    },
+    {
+      "targetId": "ENSG00000165474",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "GJB2"
+    },
+    {
+      "targetId": "ENSG00000125144",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "MT1G"
+    },
+    {
+      "targetId": "ENSG00000170323",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "FABP4"
+    },
+    {
+      "targetId": "ENSG00000170345",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "FOS"
+    },
+    {
+      "targetId": "ENSG00000181019",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "NQO1"
+    },
+    {
+      "targetId": "ENSG00000006715",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "VPS41"
+    },
+    {
+      "targetId": "ENSG00000175582",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "RAB6A"
+    },
+    {
+      "targetId": "ENSG00000093010",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "COMT"
+    },
+    {
+      "targetId": "ENSG00000175806",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "MSRA"
+    },
+    {
+      "targetId": "ENSG00000122034",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "GTF3A"
+    },
+    {
+      "targetId": "ENSG00000175445",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "LPL"
+    },
+    {
+      "targetId": "ENSG00000005381",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "MPO"
+    },
+    {
+      "targetId": "ENSG00000176890",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "TYMS"
+    },
+    {
+      "targetId": "ENSG00000169251",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "NMD3"
+    },
+    {
+      "targetId": "ENSG00000169715",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "MT1E"
+    },
+    {
+      "targetId": "ENSG00000118518",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "RNF146"
+    },
+    {
+      "targetId": "ENSG00000049130",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "KITLG"
+    },
+    {
+      "targetId": "ENSG00000079616",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "KIF22"
+    },
+    {
+      "targetId": "ENSG00000089006",
+      "score": 0.0022174791281082103,
+      "evidenceCount": 1,
+      "symbol": "SNX5"
+    }
+  ],
+  "positives": [
+    "SNCA",
+    "SNCB",
+    "SNCG",
+    "FYN",
+    "SYNM",
+    "ABL1",
+    "ATAD1",
+    "TLR2",
+    "MAPT",
+    "FABP3",
+    "ESRRG",
+    "TP53",
+    "ANPEP",
+    "GBA1",
+    "UGCG",
+    "SAA1",
+    "SAA2",
+    "UBE3A",
+    "HLA-B",
+    "PCSK1N",
+    "HCRT",
+    "GBA1LP",
+    "CDK14",
+    "CHI3L1",
+    "SLC6A3"
+  ],
+  "ranking": [
+    "SNCA",
+    "SNCB",
+    "SNCG",
+    "FYN",
+    "SYNM",
+    "ABL1",
+    "ATAD1",
+    "TLR2",
+    "MAPT",
+    "FABP3",
+    "ESRRG",
+    "TP53",
+    "ANPEP",
+    "GBA1",
+    "UGCG",
+    "SAA1",
+    "SAA2",
+    "UBE3A",
+    "HLA-B",
+    "PCSK1N",
+    "HCRT",
+    "GBA1LP",
+    "CDK14",
+    "CHI3L1",
+    "SLC6A3",
+    "GC",
+    "GCLC",
+    "NEFL",
+    "PRKN",
+    "HSF1",
+    "TXNIP",
+    "KLK6",
+    "MERTK",
+    "PPARA",
+    "STING1",
+    "LAG3",
+    "DAPK1",
+    "TFEB",
+    "SMG1",
+    "TPPP",
+    "NLRP3",
+    "LRRK2",
+    "HDAC6",
+    "CTSD",
+    "APOE",
+    "TRIM28",
+    "ADORA2A",
+    "ESR1",
+    "ERN1",
+    "SQSTM1",
+    "SNCAIP",
+    "IAPP",
+    "AOPEP",
+    "CLU",
+    "TFG",
+    "NEDD4",
+    "IL10",
+    "JTB",
+    "NR1I2",
+    "STIP1",
+    "NFE2L2",
+    "PRNP",
+    "GABPA",
+    "BDNF",
+    "PINK1",
+    "GFAP",
+    "UCHL1",
+    "AGER",
+    "MOK",
+    "HSPA4",
+    "HSPA1A",
+    "UBQLN2",
+    "C3",
+    "CGAS",
+    "PRKCD",
+    "GCH1",
+    "CNR2",
+    "PRDX2",
+    "CARD14",
+    "C4BPA",
+    "ABCB6",
+    "PSEN2",
+    "STXBP1",
+    "KHDRBS1",
+    "IGF2BP2",
+    "DCTN4",
+    "NUP62",
+    "GTF2H1",
+    "GALC",
+    "MMP3",
+    "FKBP1A",
+    "PLK2",
+    "THY1",
+    "NFATC2",
+    "CHIT1",
+    "HTRA2",
+    "MARK1",
+    "ABTB1",
+    "CD8A",
+    "FABP2",
+    "SPG11",
+    "QPCT",
+    "GRM5",
+    "CGA",
+    "NPC1",
+    "LCN2",
+    "TMED9",
+    "CDK5R1",
+    "DCTN5",
+    "CTSB",
+    "TXN",
+    "KAT2B",
+    "KAT2A",
+    "VAC14",
+    "APP",
+    "SIRT2",
+    "ADRB2",
+    "TNF",
+    "USP13",
+    "TGM2",
+    "MAPK8",
+    "EREG",
+    "PIEZO1",
+    "SCD",
+    "CPLX1",
+    "TLR4",
+    "TFR2",
+    "GDF15",
+    "CFL1",
+    "ADIPOQ",
+    "LAMC2",
+    "CSF2",
+    "PTPA",
+    "TH",
+    "PPIB",
+    "BLM",
+    "GP1BB",
+    "GLP1R",
+    "PREP",
+    "CACYBP",
+    "TIAL1",
+    "CCL21",
+    "BTG3",
+    "CCR7",
+    "ELAVL1",
+    "TARDBP",
+    "NBR1",
+    "NOS2",
+    "UBB",
+    "UBC",
+    "RPS27A",
+    "UBA52",
+    "NAT10",
+    "CCL27",
+    "ATRNL1",
+    "ALPP",
+    "PDLIM3",
+    "SLPI",
+    "ASRGL1",
+    "UTRN",
+    "EN1",
+    "DENR",
+    "CRMP1",
+    "DNM1L",
+    "DAPK2",
+    "GOT2",
+    "ERAS",
+    "ERAL1",
+    "NMNAT3",
+    "CDNF",
+    "ADORA1",
+    "CYBB",
+    "IGF1",
+    "IL6",
+    "ATP13A2",
+    "AGFG1",
+    "USP25",
+    "GRN",
+    "MDM2",
+    "CP",
+    "NLN",
+    "GRB2",
+    "ARSH",
+    "ASAH1",
+    "SOD1",
+    "NOX1",
+    "AIF1",
+    "CHCHD2",
+    "MAOB",
+    "SCARB2",
+    "PARK7",
+    "AIMP2",
+    "LRP10",
+    "SYN1",
+    "HSP90B2P",
+    "OCA2",
+    "PANK1",
+    "SEL1L",
+    "INS",
+    "CSF1R",
+    "CHMP2B",
+    "PRB2",
+    "MAPK3",
+    "SIRT3",
+    "FABP7",
+    "EIF2AK1",
+    "CTSL",
+    "NRTN",
+    "BECN1",
+    "TMEM175",
+    "IL18",
+    "ITPKB",
+    "UBL3",
+    "SLC16A7",
+    "BLOC1S1",
+    "SOX3",
+    "CLOCK",
+    "WIF1",
+    "GPX4",
+    "SDF4",
+    "CD2AP",
+    "IL2",
+    "PHPT1",
+    "IFNB1",
+    "OPN1LW",
+    "SEPTIN4",
+    "GRIN1",
+    "MC1R",
+    "CETN1",
+    "PSEN1",
+    "GPNMB",
+    "TF",
+    "CFAP410",
+    "RER1",
+    "SLC31A1",
+    "GPHA2",
+    "GPR162",
+    "ATP6V0A2",
+    "SDHC",
+    "SGCA",
+    "NOS1AP",
+    "RHOA",
+    "ACTB",
+    "PLA2G6",
+    "AKT1",
+    "PRDX5",
+    "PTHLH",
+    "PDXP",
+    "PLP1",
+    "RUBCN",
+    "YKT6",
+    "CD4",
+    "HSPA5",
+    "IDH2",
+    "RAB39B",
+    "RAC1",
+    "MRS2",
+    "EHMT1",
+    "ZGLP1",
+    "KCNN4",
+    "RAB7A",
+    "GCG",
+    "RAB7B",
+    "HSP90AB1",
+    "HSP90AA1",
+    "RBM14-RBM4",
+    "TFCP2",
+    "TP53INP1",
+    "BRCA2",
+    "MOBP",
+    "KANK2",
+    "TSACC",
+    "FANCD2",
+    "CD1D",
+    "PDE1A",
+    "ANO6",
+    "RBM14",
+    "GFPT2",
+    "SOD2",
+    "NR4A2",
+    "PGAP6",
+    "MTOR",
+    "CD68",
+    "NLRP1",
+    "MAP3K20",
+    "A4GALT",
+    "LRP1",
+    "TAS2R62P",
+    "NCL",
+    "CX3CL1",
+    "APLP1",
+    "CTLA4",
+    "HMOX1",
+    "CAV2",
+    "ALDH1A1",
+    "TPP1",
+    "NOD2",
+    "CSNK2B",
+    "DCLK1",
+    "SORT1",
+    "FEN1",
+    "PPP2R2B",
+    "IRS1",
+    "PANK2",
+    "MAP1LC3B",
+    "CEBPD",
+    "MT3",
+    "YWHAQ",
+    "EIF2A",
+    "YWHAG",
+    "IGLON5",
+    "IFNG",
+    "ACHE",
+    "GAP43",
+    "IGHG3",
+    "TREM2",
+    "TG",
+    "GBA2",
+    "IDH1",
+    "OLIG2",
+    "NTRK2",
+    "TMEM106B",
+    "GAPDH",
+    "TMEM97",
+    "C4B",
+    "USP10",
+    "ANGPTL2",
+    "ACTR2",
+    "PYCARD",
+    "PPP2CA",
+    "STMN2",
+    "PITX3",
+    "ADAM10",
+    "FIS1",
+    "PTGDS",
+    "YWHAE",
+    "CPLX2",
+    "PSMB9",
+    "SERPING1",
+    "AICDA",
+    "TOR1A",
+    "CRYAB",
+    "ZNHIT1",
+    "GGH",
+    "FGFR2",
+    "DBNDD2",
+    "RPH3A",
+    "GH1",
+    "IKBKG",
+    "MUL1",
+    "HIP1",
+    "CXCL10",
+    "GJB1",
+    "CLPP",
+    "RBFOX3",
+    "MFN1",
+    "HEXB",
+    "EIF2AK2",
+    "CBLL2",
+    "LIPE",
+    "GAL",
+    "STS",
+    "RPSA",
+    "ENDOG",
+    "CASP3",
+    "SYNJ1",
+    "MVP",
+    "OPA1",
+    "RBP4",
+    "DLG4",
+    "RPA1",
+    "LGALS1",
+    "PPARG",
+    "UQCRC1",
+    "SLC18A2",
+    "PTPRA",
+    "CAV1",
+    "PLK1",
+    "NR4A3",
+    "ICAM1",
+    "P2RX7",
+    "SGTA",
+    "SHMT1",
+    "SUGT1",
+    "ECD",
+    "SUCLA2",
+    "RAB27B",
+    "HSPB2",
+    "HSPB1",
+    "HSPB3",
+    "XK",
+    "USP9X",
+    "AQP4",
+    "TBXT",
+    "CR1",
+    "CNMD",
+    "APC",
+    "TYRP1",
+    "EPHX2",
+    "SIL1",
+    "ATXN2",
+    "CCDC174",
+    "CA5A",
+    "NTN1",
+    "CAD",
+    "GLUL",
+    "AFF1",
+    "HAMP",
+    "ATP7A",
+    "PRL",
+    "PRKCA",
+    "CYP46A1",
+    "SMAD3",
+    "PTGS2",
+    "SYK",
+    "ITPKA",
+    "IGKV1D-22",
+    "RPS17",
+    "CHST3",
+    "ALB",
+    "OSCP1",
+    "CALCR",
+    "S100A8",
+    "PHB2",
+    "CLPB",
+    "USP14",
+    "SUMO1",
+    "STUB1",
+    "GDNF",
+    "NFKB1",
+    "STAT1",
+    "NUB1",
+    "CALB1",
+    "MICAL3",
+    "PVALB",
+    "PSAP",
+    "SST",
+    "PRKAA2",
+    "CD33",
+    "PRKAA1",
+    "PASK",
+    "PKN2",
+    "RNF19A",
+    "ANK1",
+    "PRKAB1",
+    "APOB",
+    "ARHGEF28",
+    "OGA",
+    "MAPK1",
+    "FMO5",
+    "FBXO7",
+    "SMPD1",
+    "PAK2",
+    "GSK3B",
+    "SBNO2",
+    "PPARGC1A",
+    "RAB27A",
+    "SBNO1",
+    "TP53BP1",
+    "ELK1",
+    "CBS",
+    "CACNA1C",
+    "RAB11A",
+    "SKIL",
+    "MT1B",
+    "VPS35",
+    "TBXAS1",
+    "FKBP4",
+    "SLC6A6",
+    "ZNRD2",
+    "MT1IP",
+    "BAG5",
+    "FOSB",
+    "HTRA1",
+    "ADRA1B",
+    "IFI27",
+    "CRK",
+    "METTL3",
+    "CALB2",
+    "MT1X",
+    "MT1JP",
+    "GJB2",
+    "MT1G",
+    "FABP4",
+    "FOS",
+    "NQO1",
+    "VPS41",
+    "RAB6A",
+    "COMT",
+    "MSRA",
+    "GTF3A",
+    "LPL",
+    "MPO",
+    "TYMS",
+    "NMD3",
+    "MT1E",
+    "RNF146",
+    "KITLG",
+    "KIF22",
+    "SNX5"
+  ],
+  "metrics": {
+    "precision_at_20": 1.0,
+    "mrr": 1.0,
+    "ndcg_at_20": 1.0
+  },
+  "protocol": {
+    "candidate_source": "OT associations (local)",
+    "truth_source": "Top-m from same source (demo)",
+    "limitations": "Truth derived from same source; use independent gold standard for publication"
+  }
+}

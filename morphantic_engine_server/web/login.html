@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morphantic | Sign in</title>
+  <link rel="stylesheet" href="/app/styles.css" />
+</head>
+<body class="auth-body">
+  <div class="auth-card">
+    <h1 class="brand">Morphantic</h1>
+    <div class="tabs">
+      <button id="tab-login" class="tab active">Login</button>
+      <button id="tab-signup" class="tab">Sign up</button>
+    </div>
+
+    <form id="login-form" class="form visible">
+      <div class="field">
+        <label>Email</label>
+        <input id="login-email" type="email" placeholder="you@example.com" required />
+      </div>
+      <div class="field">
+        <label>Password</label>
+        <input id="login-password" type="password" placeholder="••••••••" required />
+      </div>
+      <button type="submit" class="cta">Sign in</button>
+      <div id="login-error" class="error"></div>
+    </form>
+
+    <form id="signup-form" class="form">
+      <div class="field two-col">
+        <div>
+          <label>First name</label>
+          <input id="signup-first" type="text" placeholder="Ada" required />
+        </div>
+        <div>
+          <label>Last name</label>
+          <input id="signup-last" type="text" placeholder="Lovelace" required />
+        </div>
+      </div>
+      <div class="field">
+        <label>Email</label>
+        <input id="signup-email" type="email" placeholder="you@example.com" required />
+      </div>
+      <div class="field">
+        <label>Password</label>
+        <input id="signup-password" type="password" placeholder="Min 8 chars: Aa1!" required />
+      </div>
+      <button type="submit" class="cta">Create account</button>
+      <div id="signup-error" class="error"></div>
+    </form>
+  </div>
+
+  <script src="/app/auth.js"></script>
+  <script>
+    const tabLogin = document.getElementById('tab-login');
+    const tabSignup = document.getElementById('tab-signup');
+    const loginForm = document.getElementById('login-form');
+    const signupForm = document.getElementById('signup-form');
+
+    tabLogin.addEventListener('click', () => {
+      tabLogin.classList.add('active');
+      tabSignup.classList.remove('active');
+      loginForm.classList.add('visible');
+      signupForm.classList.remove('visible');
+    });
+    tabSignup.addEventListener('click', () => {
+      tabSignup.classList.add('active');
+      tabLogin.classList.remove('active');
+      signupForm.classList.add('visible');
+      loginForm.classList.remove('visible');
+    });
+
+    // Login submit
+    loginForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('login-email').value.trim();
+      const password = document.getElementById('login-password').value;
+      const err = document.getElementById('login-error');
+      err.textContent = '';
+      try {
+        const tokens = await Auth.login(email, password);
+        Auth.saveTokens(tokens);
+        window.location.href = '/app/index.html';
+      } catch (e) {
+        err.textContent = e?.message || 'Login failed';
+      }
+    });
+
+    // Signup submit
+    signupForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const first = document.getElementById('signup-first').value.trim();
+      const last = document.getElementById('signup-last').value.trim();
+      const email = document.getElementById('signup-email').value.trim();
+      const password = document.getElementById('signup-password').value;
+      const err = document.getElementById('signup-error');
+      err.textContent = '';
+      try {
+        await Auth.signup({ email, password, first_name: first, last_name: last });
+        const tokens = await Auth.login(email, password);
+        Auth.saveTokens(tokens);
+        window.location.href = '/app/index.html';
+      } catch (e) {
+        err.textContent = e?.message || 'Signup failed';
+      }
+    });
+  </script>
+</body>
+</html>
+

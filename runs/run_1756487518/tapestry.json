@@ -1,0 +1,349 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.4706002275328355,
+      "genes": ""
+    },
+    {
+      "id": "1",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.4388561780678162,
+      "genes": ""
+    },
+    {
+      "id": "2",
+      "type": "cell",
+      "generation": 0,
+      "island": "island_0",
+      "fitness": 0.791670596139869,
+      "genes": ""
+    },
+    {
+      "id": "3",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.4726285777096796,
+      "genes": ""
+    },
+    {
+      "id": "4",
+      "type": "cell",
+      "generation": 15,
+      "island": "island_0",
+      "fitness": 0.4830578221375753,
+      "genes": ""
+    },
+    {
+      "id": "5",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.48169469149382127,
+      "genes": ""
+    },
+    {
+      "id": "6",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.4374832205684346,
+      "genes": ""
+    },
+    {
+      "id": "7",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.4718479870550244,
+      "genes": ""
+    },
+    {
+      "id": "8",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.4823201723650903,
+      "genes": ""
+    },
+    {
+      "id": "9",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.467928251116991,
+      "genes": ""
+    },
+    {
+      "id": "10",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.46637377163716587,
+      "genes": ""
+    },
+    {
+      "id": "11",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.46041475125012676,
+      "genes": ""
+    },
+    {
+      "id": "12",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.48494369459055253,
+      "genes": ""
+    },
+    {
+      "id": "13",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.4383294986485591,
+      "genes": ""
+    },
+    {
+      "id": "14",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.48313240382489475,
+      "genes": ""
+    },
+    {
+      "id": "15",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.4668387566864156,
+      "genes": ""
+    },
+    {
+      "id": "16",
+      "type": "cell",
+      "generation": 0,
+      "island": "island_1",
+      "fitness": 0.755666850851873,
+      "genes": ""
+    },
+    {
+      "id": "17",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.4764239058744371,
+      "genes": ""
+    },
+    {
+      "id": "18",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.4699775920357801,
+      "genes": ""
+    },
+    {
+      "id": "19",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.44342945500546566,
+      "genes": ""
+    },
+    {
+      "id": "20",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.47800683120817467,
+      "genes": ""
+    },
+    {
+      "id": "21",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.4450542208680648,
+      "genes": ""
+    },
+    {
+      "id": "22",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.46958545360674153,
+      "genes": ""
+    },
+    {
+      "id": "23",
+      "type": "cell",
+      "generation": 15,
+      "island": "island_1",
+      "fitness": 0.5747133622491497,
+      "genes": ""
+    },
+    {
+      "id": "24",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.446810588235353,
+      "genes": ""
+    },
+    {
+      "id": "25",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.4640628643949416,
+      "genes": ""
+    },
+    {
+      "id": "26",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.4860304659588194,
+      "genes": ""
+    },
+    {
+      "id": "27",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.4729567839899133,
+      "genes": ""
+    },
+    {
+      "id": "28",
+      "type": "cell",
+      "generation": 15,
+      "island": "island_1",
+      "fitness": 0.5199910192309722,
+      "genes": ""
+    },
+    {
+      "id": "29",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.4729454572114176,
+      "genes": ""
+    },
+    {
+      "id": "30",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.47283227222095553,
+      "genes": ""
+    },
+    {
+      "id": "31",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.47851179544498584,
+      "genes": ""
+    },
+    {
+      "id": "11831",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.4694190411955611,
+      "genes": "DREAM1-90fd"
+    },
+    {
+      "id": "18572",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.47459500914595953,
+      "genes": "DREAM1-fe05"
+    },
+    {
+      "id": "59574",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.4767299499003139,
+      "genes": ""
+    },
+    {
+      "id": "53424",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.43715664493967366,
+      "genes": ""
+    },
+    {
+      "id": "19835",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.469999351455911,
+      "genes": "DREAM1-db75"
+    },
+    {
+      "id": "19823",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.5192778694131213,
+      "genes": "DREAM1-5a86"
+    },
+    {
+      "id": "16883",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.4668387566864156,
+      "genes": "DREAM1-55f7"
+    },
+    {
+      "id": "12978",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.47225351454655307,
+      "genes": "DREAM1-2ba1"
+    },
+    {
+      "id": "59861",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.4408186806533554,
+      "genes": "DREAM1-55f7"
+    },
+    {
+      "id": "53112",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_0",
+      "fitness": 0.46973678403796104,
+      "genes": ""
+    },
+    {
+      "id": "19974",
+      "type": "cell",
+      "generation": 19,
+      "island": "island_1",
+      "fitness": 0.48862766763921656,
+      "genes": "DREAM1-6dbe"
+    }
+  ],
+  "links": []
+}

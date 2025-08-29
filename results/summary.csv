@@ -1,0 +1,8 @@
+file,precision_at_20,mrr,ndcg_at_20,method
+aea_results.json,0.55,0.72,0.77,aea_results
+baselines.json,0.3,0.25,0.2677790403945625,simple_score_rank
+baselines.json,0.4,1.0,0.503818374209601,cma_es_weighted_sum
+cma_es_results.json,0.25,1.0,0.291912042751809,cma_es_results
+morphantic_aea.json,0.45,1.0,0.5628433550603265,morphantic_aea
+ot_local_DOID_0050890.json,1.0,1.0,1.0,ot_local_DOID_0050890
+simple_results.json,0.15,0.07142857142857142,0.10275755139284115,simple_results
