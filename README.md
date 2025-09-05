@@ -74,6 +74,16 @@ python baselines/cma_es.py --data-dir data --results-path results/cma_es_results
 
 Each baseline script outputs a JSON file containing the ranking, selected panel and evaluation metrics.  These results are also printed to the console for convenience.
 
+## Quick end-to-end example
+
+For a minimal demonstration of the full pipeline, run the example script:
+
+```bash
+python examples/run_benchmarks.py
+```
+
+This generates a small synthetic dataset, executes both baselines and writes the outputs under `data/example` and `results/example` while printing the evaluation metrics to the terminal.
+
 ## Evaluating your own method
 
 If you have developed your own ranking algorithm, you can use the shared `evaluation.py` and `panel_design.py` modules to compute standard metrics on your output.  A basic usage example is shown below:
